@@ -1,0 +1,376 @@
+@import url(https://fonts.googleapis.com/css?family=Borel);
+
+.App {
+     text-align: center;
+}
+
+.App-logo {
+     height: 40vmin;
+     pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+     .App-logo {
+          animation: App-logo-spin infinite 20s linear;
+     }
+}
+
+.App-header {
+     background-color: #282c34;
+     min-height: 100vh;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     font-size: calc(10px + 2vmin);
+     color: white;
+}
+
+.App-link {
+     color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+     from {
+          transform: rotate(0deg);
+     }
+
+     to {
+          transform: rotate(360deg);
+     }
+}
+
+a {
+     text-decoration: none;
+     color: rgb(88, 89, 91)
+}
+
+.about {
+     margin: 1.5%;
+     padding: 0 0 2% 0; 
+}
+
+.about__heading-h2 {
+     font-size: 1.5em;
+}
+
+.about__therapist-bio-body {
+     margin: 5px 0 10px 0;
+     text-indent: 15px;
+}
+
+.about__therapist-h4 {
+     margin: 10px 0 2px 0;
+}
+
+.about__therapist-list {
+     list-style-type: none;
+     margin: 0;
+}
+
+.about__therapist-list-item {
+     margin: 0;
+}
+
+.about__therapist-name-h3 {
+     font-size: 1.25em;
+     margin: 0;
+}
+
+.about__therapist-pic {
+     max-width: 10%;
+}
+
+.body {
+     min-height: 100%;
+}
+
+.client-portal {
+     margin: 1.5%;
+}
+
+.client-portal__h2 {
+     margin: 3px 0;
+}
+
+.connect {
+     margin: 1.5%;
+     padding-bottom: 2%;
+}
+
+.faqs {
+     margin: 1.5%;
+}
+
+ul.faq__list {
+     list-style-type: none;
+     padding: 0;
+     margin: 0;
+}
+
+.faq__answer {
+     text-indent: 5px;
+}
+
+.faq__entry {
+     margin: 0.5% 0;
+}
+
+.faq__question {
+     font-style: italic;
+     font-weight: 600;
+     color: rgb(205, 125, 67)
+}
+
+.footer {
+     display: flex;
+     flex-flow: row nowrap;
+     position: static;
+     width: 100%;
+     justify-content: space-between;
+     background-color: rgba(193, 195, 171, 1);
+     overflow: hidden;
+     position: fixed;
+     bottom: 0;
+     margin: 0;
+}
+
+ul.footer {
+     list-style-type: none;
+     padding: 0;
+     margin: 0;
+}
+
+.footer__group_left {
+     margin: 0.5%;
+     display: flex;
+     flex-flow: column nowrap;
+}
+
+
+.footer__group-middle {
+     display: flex;
+     flex-flow: row nowrap;
+     align-items: center;
+     justify-content: space-around;
+}
+
+.footer__group_right {
+     margin: 1%;
+     display: flex;
+     flex-flow: row nowrap;
+     align-self: center;
+}
+
+.footer__IGlogo-small {
+     max-width: 10%;
+}
+
+.footer__list_item-separator {
+     padding: 0 5px;
+}
+
+.footer__logo-small {
+     max-width: 25%;
+}
+
+.good-faith {
+     margin: 1%;
+}
+
+.good-faith__h2 {
+     padding: 3px 0 0 0;
+     font-family: Borel;
+     color: rgb(205, 125, 67);
+}
+
+.header__spacer {
+     height: 6.5rem;
+}
+
+.home__individual-quote {
+     background-image: url("img/FlowersImage.png");
+     display: flex;
+     flex-flow: row wrap;
+     justify-content: space-evenly;
+     padding: 1.5%;
+     margin: 1.5%;
+     border: 2px solid #82713D;
+}
+
+.home__individual-quote_attribute {
+     font-style: italic;
+     text-align: right;
+     padding: 2.5%;
+}
+
+.home__individual-quote_border {
+     margin: .5%;
+     background-color: #82713D;
+     padding: 0.5%;
+}
+
+.home__individual-quote_quote {
+     font-weight: 700;
+     padding: 2.5%;
+}
+
+.home__individual-quote_book-title {
+     font-style: normal;
+}
+
+.home__page {
+     margin: 1%;
+     padding-bottom: 2%;
+     padding-top: 0.5%;
+}
+
+.home__quotes {
+     display: flex;
+     flex-flow: column wrap;
+     margin: 0 35%;
+     color: rgb(255, 255, 255);
+}
+
+.home__welcome-logo {
+     font-family: Borel;
+     background-color: rgb(205, 125, 67);
+     color: rgb(255, 255, 255);
+     display: flex;
+     justify-content: center;
+     align-self: normal
+}
+
+.home__welcome-greeting {
+     font-family: Borel;
+     color: rgb(205, 125, 67);
+     display: flex;
+     justify-content: center;
+}
+
+.home__background-flowers {
+     max-width: 50%;
+     max-width: 15%;
+     object-fit: cover;
+     object-position: center;
+}
+
+.navbar {
+     display: flex;
+     flex-flow: row nowrap;
+     justify-content: space-between;
+     background-color: rgba(236, 201, 172, 1);
+     overflow: hidden;
+     position: fixed;
+     top: 0;
+     width: 100%;
+     margin: 0;
+}
+
+ul.navbar {
+     list-style-type: none;
+     padding: 0;
+     margin: 0;
+}
+
+.navbar__group_left {
+     margin: 1%;
+     display: flex;
+     flex-flow: column nowrap;
+     align-self: center;
+}
+
+.navbar__logo-small {
+     max-width: 35%;
+     padding-bottom: 0.5%;
+     border-bottom: 1px solid rgb(88, 89, 91);
+}
+
+.navbar__group_right {
+     margin: 1%;
+     display: flex;
+     flex-flow: row nowrap;
+     align-self: center;
+}
+
+.navbar__list_item-separator {
+     padding: 0 5px;
+}
+
+.phone-form {
+     margin: 1.5%;
+     padding-bottom: 2%;
+}
+
+.privacy-policy {
+     margin: 1.5%;
+     padding-bottom: 2%;
+}
+
+.privacy-policy__body {
+     margin-top: 10px;
+     text-indent: 15px;
+}
+
+.privacy-policy__emphasis {
+     font-weight: 600;
+     margin: 10px 0 2px 0;
+}
+
+.privacy-policy__emphasis-underline {
+     font-weight: 600;
+     text-decoration: underline;
+     margin-bottom: 2px;
+}
+
+.privacy-policy__h2 {
+     margin: 3px 0 0 0;
+}
+
+ol.privacy-policy__list {
+     padding: 0;
+     margin: 0.25% 18px;
+}
+
+ul.privacy-policy__list {
+     list-style-type: none;
+     padding: 0;
+     margin: 0.25% 0;
+}
+
+.privacy-policy__list-item {
+     margin: 2px 0 0 3px;
+}
+
+.services {
+     margin: 1.5%;
+}
+
+.services__body {
+     margin: 0;
+}
+
+.services__emphasis-underline {
+     text-decoration: underline;
+     margin-bottom: 2px;
+}
+
+.services__h4 {
+     margin: 10px 0 2px 0;
+     font-weight: 600;
+     text-decoration: underline;
+}
+
+.services__list {
+     list-style-type: none;
+     margin: 5px 0;
+}
+
+.services__list-item {
+     margin: 0;
+}
+
+.services__session-paragraph {
+     margin: 0.1% 0.5%;
+     text-indent: 15px;
+}
