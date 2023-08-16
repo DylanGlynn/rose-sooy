@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Borel);
+@import url(https://fonts.googleapis.com/css?family=Caprasimo);
 
 .App {
      text-align: center;
@@ -50,13 +51,24 @@ a {
      padding: 0 0 2% 0; 
 }
 
+.about__heading {
+     margin: 0 0 1.5% 0;
+}
+
 .about__heading-h2 {
      font-size: 1.5em;
 }
 
+.about__therapist-bio {
+     display: flex;
+     flex-flow: column nowrap;
+     padding: 0 2.5%;
+     background-color: rgb(88, 89, 91);
+}
+
 .about__therapist-bio-body {
-     margin: 5px 0 10px 0;
-     text-indent: 15px;
+     padding: 5px 0 10px 0;
+     text-indent: 2.5%;
 }
 
 .about__therapist-h4 {
@@ -73,12 +85,63 @@ a {
 }
 
 .about__therapist-name-h3 {
-     font-size: 1.25em;
+     color: rgb(255, 255, 255);
+     display: flex;
+     flex-flow: column nowrap;
+     text-align: center;
+     font-family: Caprasimo;
+     font-size: 2em;
+     font-weight: 400;
+     padding: 5px;
      margin: 0;
+     background-color: rgba(193, 195, 171, 1);
 }
 
 .about__therapist-pic {
-     max-width: 10%;
+     overflow: hidden;
+     margin: 0;
+}
+
+.about__therapist-qualifications {
+     display: flex;
+     flex-flow: column nowrap;
+     background-color: rgba(193, 195, 171, 1);
+     text-indent: 2.5%;
+     padding: 0 0 10px 0;
+}
+
+.about__therapist-row-01 {
+     display: flex;
+     flex-flow: row nowrap;
+     justify-content: space-around;
+}
+
+.about__therapist-row-01-left {
+     margin: 0;
+}    
+
+.about__therapist-row-01-right {
+     display: flex;
+     flex-flow: column nowrap;
+     justify-content: space-between;
+     background-color: rgba(236, 201, 172, 1);
+     margin: 0;
+}
+
+.about__therapist-services {
+     display: flex;
+     flex-flow: column nowrap;
+     background-color: rgba(193, 195, 171, 1);
+     text-indent: 2.5%;
+     padding: 0 0 10px 0;
+}
+
+.about__therapist-specialties {
+     display: flex;
+     flex-flow: column nowrap;
+     background-color: rgb(205, 125, 67);
+     text-indent: 2.5%;
+     padding: 0 0 10px 0;
 }
 
 .body {
@@ -174,14 +237,17 @@ ul.footer {
      max-width: 25%;
 }
 
+.footer__spacer {
+     height: 2.5rem;
+}
+
 .good-faith {
-     margin: 1%;
+     margin: 1.5%;
+     margin-bottom: 3%;
 }
 
 .good-faith__h2 {
      padding: 3px 0 0 0;
-     font-family: Borel;
-     color: rgb(205, 125, 67);
 }
 
 .header__spacer {
@@ -232,6 +298,49 @@ ul.footer {
      color: rgb(255, 255, 255);
 }
 
+.home_quotes-v2 {
+     display: flex;
+     flex-flow: column nowrap;
+     width: 100%;
+     margin: 0;
+     padding-bottom: 20%;
+}
+
+.home__quote-v2 {
+     display: flex;
+     flex-flow: row nowrap;
+     border: 3px solid rgb(205, 125, 67);
+     background-color: rgb(205, 125, 67);
+}
+
+.home__quote-v2-attribute {
+     text-align: right;
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+.home__quote-v2-img {
+     overflow: hidden;
+}
+
+.home__quote-v2-pic {
+     height: 50%;
+}
+
+.home__quote-v2-right {
+     display: flex;
+     flex-flow: column nowrap;  
+     margin: 0 5%;
+     align-content: center;
+     justify-content: center;
+}
+
+.home__quote-v2-quote {
+     font-family: Borel;   
+     font-weight: 800;
+     font-size:x-large;
+     color: rgb(255, 255, 255);
+}
+
 .home__welcome-logo {
      font-family: Borel;
      background-color: rgb(205, 125, 67);
@@ -264,7 +373,6 @@ ul.footer {
      position: fixed;
      top: 0;
      width: 100%;
-     margin: 0;
 }
 
 ul.navbar {
@@ -274,22 +382,31 @@ ul.navbar {
 }
 
 .navbar__group_left {
-     margin: 1%;
+     margin: 0.5% 1%;
      display: flex;
      flex-flow: column nowrap;
-     align-self: center;
+}
+
+.navbar__list_item-left {
+     max-width: 40.5%;
+     font-size: small;
+     display: flex;
+     border-top: 1px solid rgb(88, 89, 91);
 }
 
 .navbar__logo-small {
      max-width: 35%;
      padding-bottom: 0.5%;
-     border-bottom: 1px solid rgb(88, 89, 91);
+     display: flex;
+     justify-content: space-around;
+     
 }
 
 .navbar__group_right {
      margin: 1%;
-     display: flex;
+     display: inline-flex;
      flex-flow: row nowrap;
+     text-align-last: right;
      align-self: center;
 }
 

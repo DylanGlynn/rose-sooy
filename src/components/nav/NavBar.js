@@ -7,12 +7,12 @@ export const NavBar = () => {
      return (
           <ul className="navbar">
                <div className="navbar__group_left">
-                    <li className="navbar__list_item-left">
+                    <li className="navbar__logo">
                          <Link className="navbar__link" to={"/"}>
                               <img className="navbar__logo-small" src={RSLogo} />
                          </Link>
                     </li>
-                    <li className="navbar__list_item-left">Rose + Sooy Counseling</li>
+                    <li className="navbar__list_item-left">ROSE + SOOY COUNSELING</li>
                </div>
                <div className="navbar__group_right">
                     <li className="navbar__list_item-right">

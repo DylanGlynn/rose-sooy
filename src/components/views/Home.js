@@ -75,6 +75,21 @@ export const Home = () => {
                          Pics
                     </div>
                </article >
+               <article className="home__quotes-v2">
+                    <div className="home__quote-v2">
+                         <div className="home__quote-v2-pic">
+                              <img src={FlowersBackground} className="home__quote-v2-img" />
+                         </div>
+                         <div className="home__quote-v2-right">
+                              <div className="home__quote-v2-quote">
+                                   “You are not who you are because of what has happened to you, but despite it.”
+                              </div>
+                              <div className="home__quote-v2-attribute">
+                                   - R + S Counseling
+                              </div>
+                         </div>
+                    </div>
+               </article>
           </section >
      )
 }
