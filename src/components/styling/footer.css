@@ -1,0 +1,55 @@
+.footer {
+     display: flex;
+     flex-flow: row nowrap;
+     position: static;
+     width: 100%;
+     justify-content: space-between;
+     background-color: rgba(193, 195, 171, 1);
+     overflow: hidden;
+     position: fixed;
+     bottom: 0;
+     margin: 0;
+}
+
+ul.footer {
+     list-style-type: none;
+     padding: 0;
+     margin: 0;
+}
+
+.footer__group_left {
+     margin: 0.5%;
+     display: flex;
+     flex-flow: column nowrap;
+}
+
+
+.footer__group-middle {
+     display: flex;
+     flex-flow: row nowrap;
+     align-items: center;
+     justify-content: space-around;
+}
+
+.footer__group_right {
+     margin: 1%;
+     display: flex;
+     flex-flow: row nowrap;
+     align-self: center;
+}
+
+.footer__IGlogo-small {
+     max-width: 10%;
+}
+
+.footer__list_item-separator {
+     padding: 0 5px;
+}
+
+.footer__logo-small {
+     max-width: 25%;
+}
+
+.footer__spacer {
+     height: 2.5rem;
+}

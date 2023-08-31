@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 
-export const GoodFaithEstimate = () => {
+export const GoodFaithAgreement = () => {
      return (
           <section className="good-faith">
                <article className="good-faith_heading">

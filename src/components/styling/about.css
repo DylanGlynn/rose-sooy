@@ -1,0 +1,108 @@
+.about {
+     margin: 1.5%;
+     padding: 0 0 2% 0; 
+}
+
+.about__heading {
+     margin: 0 0 1.5% 0;
+}
+
+.about__heading-h2 {
+     font-size: 1.5em;
+}
+
+.about__therapist-bio {
+     display: flex;
+     flex-flow: column nowrap;
+     padding: 0 2.5%;
+     background-color: rgb(179, 117, 115);
+}
+
+.about__therapist-bio-body {
+     padding: 5px 0 10px 0;
+     text-indent: 2.5%;
+}
+
+.about__therapist-h4 {
+     margin: 10px 0 2px 0;
+}
+
+.about__therapist-list {
+     list-style-type: none;
+     margin: 0;
+}
+
+.about__therapist-list-item {
+     margin: 0;
+}
+
+.about__therapist-name-h3 {
+     color: rgb(255, 255, 255);
+     display: flex;
+     flex-flow: column nowrap;
+     text-align: center;
+     font-family: Caprasimo;
+     font-size: 2em;
+     font-weight: 400;
+     padding: 5px;
+     margin: 0;
+     background-color: rgb(84, 47, 31);
+     border-top-left-radius: 3em;
+     border-top-right-radius: 3em;
+}
+
+.about__therapist-pic {
+     overflow: hidden;
+     border-radius: 3em;
+     margin: 0;
+}
+
+.about__therapist-qualifications {
+     display: flex;
+     flex-flow: column nowrap;
+     background-color: rgb(92, 113, 106);
+     text-indent: 2.5%;
+     padding: 0 0 10px 0;
+     color: white;
+     border-bottom-left-radius: 3em;
+     border-bottom-right-radius: 3em;
+
+}
+
+.about__therapist-row-01 {
+     display: flex;
+     flex-flow: row nowrap;
+     justify-content: space-around;
+}
+
+.about__therapist-row-01-left {
+     margin: 0;
+     padding-right: 1%;
+}    
+
+.about__therapist-row-01-right {
+     display: flex;
+     flex-flow: column nowrap;
+     justify-content: space-between;
+     background-color: rgba(236, 201, 172, 1);
+     margin: 0;
+     border-radius: 3em;
+     color: white;
+}
+
+.about__therapist-services {
+     display: flex;
+     flex-flow: column nowrap;
+     background-color: rgb(92, 113, 106);
+     text-indent: 2.5%;
+     padding: 0 0 10px 0;
+}
+
+.about__therapist-specialties {
+     display: flex;
+     flex-flow: column nowrap;
+     background-color: rgb(115, 143, 170);
+     text-indent: 2.5%;
+     padding: 0 0 10px 0;
+     color: white;
+}

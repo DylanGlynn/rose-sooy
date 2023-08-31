@@ -1,6 +1,12 @@
 import { React } from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import './components/styling/about.css';
+import './components/styling/faqs.css';
+import './components/styling/footer.css';
+import './components/styling/home.css';
+import './components/styling/navbar.css';
+import './components/styling/services.css';
 import App from './Rose+Sooy';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';

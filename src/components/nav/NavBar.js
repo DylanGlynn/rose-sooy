@@ -12,7 +12,7 @@ export const NavBar = () => {
                               <img className="navbar__logo-small" src={RSLogo} />
                          </Link>
                     </li>
-                    <li className="navbar__list_item-left">ROSE + SOOY COUNSELING</li>
+                    {/* <li className="navbar__list_item-left">ROSE + SOOY COUNSELING</li> */}
                </div>
                <div className="navbar__group_right">
                     <li className="navbar__list_item-right">

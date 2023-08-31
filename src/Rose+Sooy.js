@@ -24,7 +24,7 @@ function App() {
               </div> */
           <>
                <NavBar />
-               <div className='header__spacer'> </div>
+               {/* <div className='header__spacer'> </div> */}
                <ApplicationViews />
                <div className='footer__spacer'></div>
                <Footer />

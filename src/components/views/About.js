@@ -3,14 +3,14 @@ import TherapistIcon from "../../img/SooyKalieHeadshot.png"
 export const About = () => {
      return (
           <section className="about">
-               <div className="about__heading">
+               {/* <div className="about__heading">
                     <h2 className="about__heading-h2">
                          About the practice.
                     </h2>
                     <div className="about__history">
                          Brief description about history and purpose of practice?
                     </div>
-               </div>
+               </div> */}
                <section className="about__therapists">
                     <article className="about__therapist">
                          <div className="about__therapist-row-01">

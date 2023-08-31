@@ -1,7 +1,7 @@
 import { About } from "./About"
 import { Connect } from "./Connect"
 import { FAQ } from "./FAQ"
-import { GoodFaithEstimate } from "./GoodFaithEstimate"
+import { GoodFaithAgreement } from "./GoodFaithAgreement"
 import { Home } from "./Home"
 import { Route, Routes } from "react-router-dom"
 import { PhoneConsult } from "./PhoneConsult"
@@ -18,7 +18,7 @@ export const ApplicationViews = () => {
                <Route path="/faq" element={<FAQ />} />
                <Route path="/connect" element={<Connect />} />
                <Route path="/phone-consultation" element={<PhoneConsult />} />
-               <Route path="/good-faith-estimate" element={<GoodFaithEstimate />} />
+               <Route path="/good-faith-estimate" element={<GoodFaithAgreement />} />
                <Route path="/privacy-policy" element={<PrivacyPolicy />} />
                <Route path="/client-portal" element={<ClientPortal />} />
           </Routes>
