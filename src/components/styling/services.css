@@ -1,0 +1,45 @@
+.services {
+     background-color: rgb(84, 47, 31);
+     padding: 0.125% 1.5%;
+}
+
+.services__body {
+     color: rgb(255, 255, 255);
+     margin: 0;
+}
+
+.services__emphasis-underline {
+     text-decoration: underline;
+     margin-bottom: 2px;
+}
+
+.services__h2 {
+     color: rgb(255, 255, 255);
+     font-family: Caprasimo;
+     font-size: 2em;
+     font-weight: 400;
+}
+
+.services__h4 {
+     color: rgb(255, 255, 255);
+     font-family: Caprasimo;
+     font-weight: 100;
+     margin: 10px 0 2px 0;
+     text-decoration: underline;
+}
+
+.services__heading {}
+
+.services__list {
+     list-style-type: none;
+     margin: 5px 0;
+}
+
+.services__list-item {
+     margin: 0;
+}
+
+.services__session-paragraph {
+     margin: 0.1% 0.5%;
+     text-indent: 15px;
+}

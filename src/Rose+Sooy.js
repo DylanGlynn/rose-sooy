@@ -3,6 +3,9 @@ import { ApplicationViews } from './components/views/ApplicationViews';
 import { Footer } from './components/nav/Footer';
 import logo from './logo.svg';
 import { NavBar } from './components/nav/NavBar';
+import { useEffect } from 'react';
+
+export const WebsiteAddress = "http://localhost:3000"
 
 function App() {
      return (
@@ -24,9 +27,8 @@ function App() {
               </div> */
           <>
                <NavBar />
-               {/* <div className='header__spacer'> </div> */}
                <ApplicationViews />
-               <div className='footer__spacer'></div>
+               <div className='footer__spacer' />
                <Footer />
           </>
      );

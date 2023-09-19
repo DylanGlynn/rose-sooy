@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import { WebsiteAddress } from "../../Rose+Sooy";
 
 export const FAQ = () => {
      const faqAccordion = (id) => {
@@ -12,7 +13,11 @@ export const FAQ = () => {
 
      return (
           <>
-               <div className='header__spacer' />
+               {
+                    window.location.href == WebsiteAddress
+                         ? "" 
+                         : <div className='header__spacer' />
+               }
                <div className="faqs">
                     <h3 className="faq__header">Frequently Asked Questions</h3>
                     <ul className="faq__list">

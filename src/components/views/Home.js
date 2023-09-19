@@ -1,7 +1,8 @@
-import FlowersBackground from "../../img/FlowersImage.png"
-import { About } from "./About";
-import { GoodFaithAgreement } from "./GoodFaithAgreement";
-import { Services } from "./Services"
+/* import FlowersBackground from "../../img/FlowersImage.png" */
+import { AboutForHome } from "./About";
+/* import { GoodFaithAgreement } from "./GoodFaithAgreement"; */
+import { ServicesForHome } from "./Services"
+/* import NatureBackground_Ocean from "../../img/NatureImgs/IMG_0239.JPG" */
 
 export const Home = () => {
      return (
@@ -33,7 +34,6 @@ export const Home = () => {
                <div className="home__background-image">
                     <img className="home__background-flowers" src={FlowersBackground} alt="Flowers Background" />
                </div>
-               */}
                     <article className="home__quotes">
                          <div className="home__individual-quote">
                               <div className="home__individual-quote_border">
@@ -91,24 +91,25 @@ export const Home = () => {
                               Pics
                          </div>
                     </article >
-                    <article className="home__quotes-v2">
-                         <div className="home__quote-v2">
-                              <div className="home__quote-v2-pic">
-                                   <img src={FlowersBackground} className="home__quote-v2-img" />
+                         */}
+                    <article className="home__quotes-01">
+                         <div className="home__quote-01">
+                              <div className="home__quote-01-pic">
+                                   {/* <img src={NatureBackground_Ocean} className="home__quote-01-img" /> */}
                               </div>
-                              <div className="home__quote-v2-right">
-                                   <div className="home__quote-v2-quote">
+                              <div className="home__quote-01-right">
+                                   <div className="home__quote-01-quote">
                                         “You are not who you are because of what has happened to you, but despite it.”
                                    </div>
-                                   <div className="home__quote-v2-attribute">
+                                   <div className="home__quote-01-attribute">
                                         - R + S Counseling
                                    </div>
                               </div>
                          </div>
                     </article>
                </section >
-               <GoodFaithAgreement />
-               <About />
+               <AboutForHome />
+               <ServicesForHome />
           </>
      )
 }

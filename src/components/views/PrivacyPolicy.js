@@ -1,9 +1,14 @@
 import { Link } from "react-router-dom"
+import { WebsiteAddress } from "../../Rose+Sooy"
 
 export const PrivacyPolicy = () => {
      return (
           <>
-               <div className='header__spacer' />
+               {
+                    window.location.href == WebsiteAddress
+                         ? <div className="header__no-spacer"/>
+                         : <div className='header__spacer' />
+               }
                <section className="privacy-policy">
                     <div className="privacy-policy__heading">
                          <h2 className="provacy-policy__h2">

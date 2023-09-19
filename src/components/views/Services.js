@@ -1,11 +1,10 @@
-export const Services = () => {
+export const ServicesForHome = () => {
      return (
           <>
-               <div className='header__spacer'> </div>
                <section className="services">
                     <div className="services__heading">
                          <h2 className="services__h2">
-                              Services Offered.
+                              Services Offered
                          </h2>
                     </div>
                     <div className="services__body">
@@ -52,6 +51,15 @@ export const Services = () => {
                          </div>
                     </div>
                </section>
+          </>
+     )
+}
+
+export const Services = () => {
+     return (
+          <>
+               <div className='header__spacer' />
+               <ServicesForHome />
           </>
      )
 }

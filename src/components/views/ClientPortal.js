@@ -1,7 +1,13 @@
+import { WebsiteAddress } from "../../Rose+Sooy"
+
 export const ClientPortal = () => {
      return (
           <>
-               <div className='header__spacer' />
+               {
+                    window.location.href == WebsiteAddress
+                         ? "" 
+                         : <div className='header__spacer' />
+               }
                <section className="client-portal">
                     <div className="client-portal__heading">
                          <h2 className="client-portal__h2">

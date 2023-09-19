@@ -64,6 +64,10 @@ a {
      padding-bottom: 2%;
 }
 
+.footer__spacer {
+     height: 6.5rem;
+     background-color: rgb(92, 113, 106);
+}
 
 
 .good-faith {
@@ -76,7 +80,7 @@ a {
 }
 
 .header__spacer {
-     height: 6.5rem;
+     height: 8.5rem;
 }
 
 .phone-form {
@@ -122,37 +126,4 @@ ul.privacy-policy__list {
 
 .privacy-policy__list-item {
      margin: 2px 0 0 3px;
-}
-
-.services {
-     margin: 1.5%;
-}
-
-.services__body {
-     margin: 0;
-}
-
-.services__emphasis-underline {
-     text-decoration: underline;
-     margin-bottom: 2px;
-}
-
-.services__h4 {
-     margin: 10px 0 2px 0;
-     font-weight: 600;
-     text-decoration: underline;
-}
-
-.services__list {
-     list-style-type: none;
-     margin: 5px 0;
-}
-
-.services__list-item {
-     margin: 0;
-}
-
-.services__session-paragraph {
-     margin: 0.1% 0.5%;
-     text-indent: 15px;
 }

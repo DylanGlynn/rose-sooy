@@ -1,7 +1,13 @@
+import { WebsiteAddress } from "../../Rose+Sooy"
+
 export const Connect = () => {
      return (
           <>
-               <div className='header__spacer'/>
+               {
+                    window.location.href == WebsiteAddress
+                         ? "" 
+                         : <div className='header__spacer' />
+               }
                <section className="connect">
                     <div className="connect__heading">
                          <h2 className="connect__h2">
