@@ -66,17 +66,6 @@ a {
 
 .footer__spacer {
      height: 6.5rem;
-     background-color: rgb(92, 113, 106);
-}
-
-
-.good-faith {
-     margin: 1.5%;
-     margin-bottom: 3%;
-}
-
-.good-faith__h2 {
-     padding: 3px 0 0 0;
 }
 
 .header__spacer {
@@ -86,44 +75,4 @@ a {
 .phone-form {
      margin: 1.5%;
      padding-bottom: 2%;
-}
-
-.privacy-policy {
-     margin: 1.5%;
-     padding-bottom: 2%;
-}
-
-.privacy-policy__body {
-     margin-top: 10px;
-     text-indent: 15px;
-}
-
-.privacy-policy__emphasis {
-     font-weight: 600;
-     margin: 10px 0 2px 0;
-}
-
-.privacy-policy__emphasis-underline {
-     font-weight: 600;
-     text-decoration: underline;
-     margin-bottom: 2px;
-}
-
-.privacy-policy__h2 {
-     margin: 3px 0 0 0;
-}
-
-ol.privacy-policy__list {
-     padding: 0;
-     margin: 0.25% 18px;
-}
-
-ul.privacy-policy__list {
-     list-style-type: none;
-     padding: 0;
-     margin: 0.25% 0;
-}
-
-.privacy-policy__list-item {
-     margin: 2px 0 0 3px;
 }

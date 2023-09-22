@@ -4,11 +4,6 @@ import { WebsiteAddress } from "../../Rose+Sooy"
 export const GoodFaithAgreement = () => {
      return (
           <>
-               {
-                    window.location.href == WebsiteAddress
-                         ? ""
-                         : <div className='header__spacer' />
-               }
                <section className="good-faith">
                     <article className="good-faith_heading">
                          <h2 className="good-faith__h2">

@@ -1,13 +1,12 @@
 import { About } from "./About"
 import { Connect } from "./Connect"
 import { FAQ } from "./FAQ"
-import { GoodFaithAgreement } from "./GoodFaithAgreement"
 import { Home } from "./Home"
 import { Route, Routes } from "react-router-dom"
 import { PhoneConsult } from "./PhoneConsult"
-import { PrivacyPolicy } from "./PrivacyPolicy"
 import { Services } from "./Services"
 import { ClientPortal } from "./ClientPortal"
+import { FeesPolicies } from "./FeesPolicies"
 
 export const ApplicationViews = () => {
      return (
@@ -18,8 +17,7 @@ export const ApplicationViews = () => {
                <Route path="/faq" element={<FAQ />} />
                <Route path="/connect" element={<Connect />} />
                <Route path="/phone-consultation" element={<PhoneConsult />} />
-               <Route path="/good-faith-estimate" element={<GoodFaithAgreement />} />
-               <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+               <Route path="/fees-and-policies" element={<FeesPolicies />} />
                <Route path="/client-portal" element={<ClientPortal />} />
           </Routes>
      )

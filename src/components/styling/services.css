@@ -1,6 +1,8 @@
 .services {
-     background-color: rgb(84, 47, 31);
-     padding: 0.125% 1.5%;
+     display: flex;
+     flex-flow: row nowrap;
+     justify-content: space-around;
+     padding: 0% 2.50% 1.5% 2.50%;
 }
 
 .services__body {
@@ -13,16 +15,46 @@
      margin-bottom: 2px;
 }
 
+.services__fees {
+     background-color: rgb(115, 143, 170);
+     padding: 0.125% 1%;
+     border-bottom-left-radius: 3em;
+     border-bottom-right-radius: 3em;
+}
+
+.services__group-left {
+     display: flex;
+     flex-flow: column nowrap;
+     justify-content: center;
+}
+
+.services__group-right_photo {
+     height: 2em;
+     zoom: 50%;
+}
+
+.services__group-right {
+     border-radius: 3em;
+     overflow: hidden;
+     margin: 0 0 0 1%;     
+}
+
 .services__h2 {
+     background-color: rgb(84, 47, 31);
+     border-top-left-radius: 3rem;
+     border-top-right-radius: 3rem;
      color: rgb(255, 255, 255);
      font-family: Caprasimo;
      font-size: 2em;
      font-weight: 400;
+     margin: 0;
+     text-align: center;
 }
 
 .services__h4 {
      color: rgb(255, 255, 255);
      font-family: Caprasimo;
+     font-size: 1.5em;
      font-weight: 100;
      margin: 10px 0 2px 0;
      text-decoration: underline;
@@ -33,10 +65,21 @@
 .services__list {
      list-style-type: none;
      margin: 5px 0;
+
 }
 
 .services__list-item {
      margin: 0;
+}
+
+.services__locations {
+     background-color: rgb(92, 113, 106);
+     padding: 0.125% 1%;
+}
+
+.services__provided {
+     background-color: rgb(179, 117, 115);
+     padding: 0.125% 1%;
 }
 
 .services__session-paragraph {

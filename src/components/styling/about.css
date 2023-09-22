@@ -1,6 +1,5 @@
 .about {
-     margin: 0 1.5%;
-     padding: 0 0 2% 0;
+     padding: 0% 1.5% 2% 1.5%;
 }
 
 .about__heading {
@@ -24,7 +23,11 @@
 }
 
 .about__therapist-h4 {
+     font-family: Caprasimo;
+     font-size: 1.5em;
+     font-weight: 100;
      margin: 10px 0 2px 0;
+     text-decoration: underline;
 }
 
 .about__therapist-list {
