@@ -1,4 +1,3 @@
-import IGLogo from "../../img/IGLogo.png"
 import { Link } from "react-router-dom"
 import "../../Rose+Sooy.css"
 
@@ -24,7 +23,7 @@ export const Footer = () => {
                                    |
                               </li>
                               <li className="footer__list_item-middle">
-                                   615.???.????
+                                   (615) ???-????
                               </li>
                               <li className="footer__list_item-separator">
                                    |
@@ -54,11 +53,6 @@ export const Footer = () => {
                     </article>
                </section>
                <section className="footer__group-right">
-                    {/* <div className="footer__list_item-right">
-                         <Link className="footer__link" to={"https://www.instagram.com/roseandsooycounseling/"} target="_blank_tab">
-                              <img className="footer__IGlogo-small" src={IGLogo} alt="Rose + Sooy Instagram" />
-                         </Link>
-                    </div> */}
                </section>
           </section>
      )

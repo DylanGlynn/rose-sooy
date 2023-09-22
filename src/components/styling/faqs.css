@@ -1,11 +1,8 @@
 .faqs {
-     margin: 1.5%;
-}
-
-ul.faq__list {
-     list-style-type: none;
-     padding: 0;
-     margin: 0;
+     display: flex;
+     flex-flow: row nowrap;
+     justify-content: space-around;
+     margin: 0 1.5% 1.5% 1.5%;
 }
 
 .faq__answer {
@@ -14,6 +11,31 @@ ul.faq__list {
 
 .faq__entry {
      margin: 0.5% 0;
+}
+
+.faq__header {
+     font-family: Caprasimo;
+     font-weight: 400;
+}
+
+.faq__group-left {
+     width: 50%;
+}
+
+.faq__group-right {
+     border-radius: 3em;
+     overflow: hidden;
+}
+
+.faq__group-right_photo {
+     height: 3rem;
+     zoom: 55%;
+}
+
+ul.faq__list {
+     list-style-type: none;
+     padding: 0;
+     margin: 0;
 }
 
 .faq__question {

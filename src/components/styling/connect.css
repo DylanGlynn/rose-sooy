@@ -1,0 +1,40 @@
+.connect {
+     display: flex;
+     flex-flow: row nowrap;
+     align-items: top;
+     justify-content: space-evenly;
+     margin: 0 1.5% 1.5% 1.5%;
+}
+
+.connect__panel-left {
+     /* background-color: rgba(179, 117, 115, 1);
+     color: white;
+     padding: 0 1.5%; */
+}
+
+.connect__panel-left__address {
+     padding: 0 0 2.5% 0;
+}
+
+.connect__panel-left__h2 {
+     font-family: Caprasimo;
+     font-weight: 400;
+}
+
+.connect__panel-left__heading {
+     
+}
+
+.connect__panel-left__IGlogo-small {
+     height: 2.5rem;
+     padding: 2.5% 0 0 0;
+}
+
+.connect__panel-right {
+     text-align: center;
+     background-color: rgba(179, 117, 115, 1);
+     display: flex;
+     flex-flow: column nowrap;
+     justify-content: center;
+     padding: 0 1.5%;
+}
