@@ -73,7 +73,7 @@ export const FAQ = () => {
                                         Do you provide religious therapy?
                                    </div>
                                    <div className="faq__answer">
-                                        No, we are not faith based.While we do not counsel from any particular religious perspective, we are welcoming to people from all spiritual, religious backgrounds, or lack thereof!
+                                        No, we are not faith based. While we do not counsel from any particular religious perspective, we are welcoming to people from all spiritual, religious backgrounds, or lack thereof!
                                    </div>
                               </li >
                               <li className="faq__entry">
@@ -89,7 +89,7 @@ export const FAQ = () => {
                                         How often will we meet and how long will I be in therapy?
                                    </div>
                                    <div className="faq__answer">
-                                        There is not a definitive answer to this question as each person’s circumstances are unique.Some clients are seen for a few months, while others continue treatment for years. Your therapist will collaborate with you throughout your work together, continuously exploring where you are at in your healing journey and if the current therapeutic work is meeting your needs.
+                                        There is not a definitive answer to this question as each person’s circumstances are unique. Some clients are seen for a few months, while others continue treatment for years. Your therapist will collaborate with you throughout your work together, continuously exploring where you are at in your healing journey and if the current therapeutic work is meeting your needs.
                                    </div>
                               </li >
                          </ul >

@@ -39,7 +39,8 @@ ul.faq__list {
 }
 
 .faq__question {
+     font-size: 1.25em;
      font-style: italic;
-     font-weight: 600;
-     color: rgb(205, 125, 67)
+     font-weight: 800;
+     color: rgb(46, 87, 32)
 }

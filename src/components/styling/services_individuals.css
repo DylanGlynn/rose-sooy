@@ -1,0 +1,52 @@
+.services__individuals {
+     color: white;
+     margin: 0 1.5% 1.5% 1.5%;
+}
+
+.services__individuals-body {
+     margin: 0.50%;
+}
+
+.services__individuals-h2 {
+     color: rgb(255, 255, 255);
+     font-family: Caprasimo;
+     font-size: 1.5em;
+     font-weight: 100;
+     margin: 10px 0 2px 0;
+     text-decoration: underline;
+}
+
+.accordion {
+     background-color: rgba(255, 255, 255, 0.45);
+     color: rgb(115, 143, 170);
+     cursor: pointer;
+     padding: 0.50%;
+     width: 100%;
+     text-align: left;
+     border: none;
+     outline: none;
+     transition: 0.4s;
+}
+
+.active .accordion:hover {
+     background-color: rgba(255, 255, 255, 0.125);
+}
+
+.accordion__panel {
+     padding: 0 18px;
+     background-color: white;
+     display: none;
+     overflow: hidden;
+}
+
+.accordion:after {
+     color: rgb(115, 143, 170);
+     content: '\02795';
+     float: right;
+     font-size: 90%;
+     margin: 0;
+   }
+   
+   .active:after {
+     content: "\2796"; /* Unicode character for "minus" sign (-) */
+   }

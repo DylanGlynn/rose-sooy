@@ -42,7 +42,7 @@ export const Connect = () => {
                                    (615) ???-???
                               </div>
                               <div className="connect__panel-left__email">
-                                   support@roseandsooy.com
+                              <Link to={"mailto:support@roseandsooy.com?subject=Initial%20Contact"}> support@roseandsooy.com</Link>
                               </div>
                               <div className="connect__panel-left__IG">
                                    <Link className="connect__panel-left__IG-logo" to={"https://www.instagram.com/roseandsooycounseling/"} target="_blank_tab">
@@ -54,8 +54,8 @@ export const Connect = () => {
                               </div>
                          </div>
                     </div>
-                    <div className="connect__panel-right">
-                         Form Goes Here
+                    <div className="connect__panel-rightf">
+                         {/* Form Goes Here */}
                     </div>
                </section>
           </>

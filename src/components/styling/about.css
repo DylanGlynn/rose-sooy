@@ -7,7 +7,18 @@
 }
 
 .about__heading-h2 {
-     font-size: 1.5em;
+     background-color: rgba(255, 255, 255, 0.75);
+     color: rgb(115, 143, 170);
+     /* font-family: Caprasimo; */
+     font-size: 2em;
+     font-weight: 100;
+     padding: 0.0675% 0;
+     margin: 0 0 15px 0;
+     text-align: center;
+}
+
+.about__practice {
+
 }
 
 .about__therapist-bio {
@@ -81,9 +92,30 @@
 .about__therapist-row-01-left {
      margin: 0;
      padding-right: 1%;
-}    
+}
 
 .about__therapist-row-01-right {
+     display: flex;
+     flex-flow: column nowrap;
+     justify-content: space-between;
+     background-color: rgba(236, 201, 172, 1);
+     margin: 0;
+     border-radius: 3em;
+     color: white;
+}
+
+.about__therapist-row-02 {
+     display: flex;
+     flex-flow: row nowrap;
+     justify-content: space-around;
+}
+
+.about__therapist-row-02-right {
+     margin: 0;
+     padding-left: 1%;
+}    
+
+.about__therapist-row-02-left {
      display: flex;
      flex-flow: column nowrap;
      justify-content: space-between;

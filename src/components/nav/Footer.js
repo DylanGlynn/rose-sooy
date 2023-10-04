@@ -22,12 +22,12 @@ export const Footer = () => {
                               <li className="footer__list_item-separator">
                                    |
                               </li>
-                              <li className="footer__list_item-middle">
+                              {/* <li className="footer__list_item-middle">
                                    (615) ???-????
                               </li>
                               <li className="footer__list_item-separator">
                                    |
-                              </li>
+                              </li> */}
                               <li className="footer__list_item-middle">
                                    <Link className="footer__link" to={"/phone-consultation"}>
                                         Free Phone Consultation
@@ -37,7 +37,7 @@ export const Footer = () => {
                                    |
                               </li>
                               <li className="footer__list_item-middle">
-                                   <Link className="footer__link" to={"/client-portal"}>
+                                   <Link className="footer__link" to={"https://secure.simplepractice.com/users/sign_in"}>
                                         Client Portal
                                    </Link>
                               </li>

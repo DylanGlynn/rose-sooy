@@ -3,7 +3,6 @@
      flex-flow: row nowrap;
      justify-content: space-between;
      background-color: rgba(255, 255, 255, .75);
-     overflow: hidden;
      position: fixed;
      top: 0;
      width: 100%;
@@ -22,26 +21,6 @@ ul.navbar {
      flex-flow: column nowrap;
 }
 
-.navbar__link {
-     color: rgb(115, 143, 170);
-     font-weight: 900;
-     text-shadow: 0px 0px 5px rgb(88, 89, 91);
-}
-
-.navbar__list_item-left {
-     max-width: 40.5%;
-     font-size: small;
-     display: flex;
-     border-top: 1px solid rgb(88, 89, 91);
-}
-
-.navbar__logo-small {
-     max-width: 35%;
-     padding-bottom: 0.5%;
-     display: flex;
-     justify-content: space-around;
-}
-
 .navbar__group_right {
      margin: 1%;
      display: inline-flex;
@@ -51,6 +30,74 @@ ul.navbar {
      color: rgb(115, 143, 170);
 }
 
+.navbar__group-right__dropdown {
+     position: relative;
+     display: inline-block;
+}
+
+.navbar__group-right__dropdown-button {
+     /* background-color: #04AA6D;
+     color: white;
+     padding: 16px;
+     font-size: 16px;
+     border: none; */
+}
+
+.navbar__group-right__dropdown-content {
+     display: none;
+     position: absolute;
+     background-color: rgba(255, 255, 255, 0.75);
+     min-width: 200px;
+     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.25);
+     z-index: 1;
+}
+
+/* Links inside the dropdown */
+.navbar__group-right__dropdown-content a {
+     align-items: left;
+     background-color: rgba(255, 255, 255, 0.75);
+     display: flex;
+     flex-wrap: nowrap;
+     font-size: 85%;
+     padding: 5% 4% 3% 4%;
+}
+
+/* Change color of dropdown links on hover */
+.navbar__group-right__dropdown-content a:hover {
+     /* background-color: rgba(255, 255, 255, 0.75); */
+}
+
+/* Show the dropdown menu on hover */
+.navbar__group-right__dropdown:hover .navbar__group-right__dropdown-content {
+     display: block;
+     overflow: visible;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.navbar__group-right__dropdown:hover .navbar__group-right__dropdown-button {
+     background-color: rgba(255, 255, 255, 0.75);
+}
+
+.navbar__link {
+     color: rgb(115, 143, 170);
+     font-weight: 900;
+     text-shadow: 0px 0px 5px rgb(255, 255, 255);
+}
+
+.navbar__list_item-left {
+     max-width: 40.5%;
+     font-size: small;
+     display: flex;
+     border-top: 1px solid rgb(88, 89, 91);
+}
+
 .navbar__list_item-separator {
      padding: 0 5px;
+}
+
+.navbar__logo-small {
+     max-width: 35%;
+     padding-bottom: 0.5%;
+     display: flex;
+     justify-content: space-around;
 }

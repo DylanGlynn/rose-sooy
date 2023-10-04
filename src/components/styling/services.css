@@ -18,8 +18,8 @@
 .services__fees {
      background-color: rgb(115, 143, 170);
      padding: 0.125% 1%;
-     border-bottom-left-radius: 3em;
      border-bottom-right-radius: 3em;
+     border-bottom-left-radius: 3em;
 }
 
 .services__group-left {
@@ -29,12 +29,13 @@
 }
 
 .services__group-right_photo {
-     height: 2em;
-     zoom: 50%;
+     height: 50em;
+     zoom: 55%;
 }
 
 .services__group-right {
-     border-radius: 3em;
+     border-top-right-radius: 18em;
+     border-top-left-radius: 18em;
      overflow: hidden;
      margin: 0 0 0 1%;     
 }

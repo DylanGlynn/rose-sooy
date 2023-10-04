@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom"
-import { WebsiteAddress } from "../../Rose+Sooy"
 
 export const GoodFaithAgreement = () => {
      return (
