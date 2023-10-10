@@ -1,5 +1,6 @@
 import TherapistIconKaelie from "../../img/SooyKaelieHeadshot.png"
 import TherapistIconJodie from "../../img/TherapistIcon.png"
+import { ConnectButton, ConnectButtonJodie } from "./ConnectButton"
 
 export const About = () => {
      return (
@@ -210,6 +211,7 @@ export const AboutJodieRosenblumSpacing = () => {
           <>
                <div className='header__spacer' />
                <AboutJodieRosenblum />
+               <ConnectButtonJodie />
           </>
      )
 }

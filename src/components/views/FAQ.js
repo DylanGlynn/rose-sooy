@@ -2,29 +2,37 @@ import FAQPhoto from "../../img/NatureImgs/IMG_9358.JPG"
 import { Link } from "react-router-dom"
 
 export const FAQ = () => {
-     /* const faqAccordion = (id) => {
-          let x = document.getElementById(id);
-          if (x.className.indexOf('faq__answer') === -1) {
-               x.className += 'faq__answer';
-          } else {
-               x.className = x.className.replace('faq__answer', '');
+     var acc = document.getElementsByClassName("accordion");
+     var i;
+
+     let AccordionState = () => {
+          for (i = 0; i < acc.length; i++) {
+               acc[i].addEventListener("click", function () {
+                    this.classList.toggle("active");
+                    var panel = this.nextElementSibling;
+                    if (panel.style.maxHeight) {
+                         panel.style.maxHeight = null;
+                    } else {
+                         panel.style.maxHeight = panel.scrollHeight + "px";
+                    }
+               });
           }
-     } */
+     }
 
      return (
           <>
                <div className='header__spacer' />
                <div className="faqs">
                     <article className="faq__group-left">
-                         <h2 className="faq__header">
+                         <h2 className="faq__header-h2">
                               Frequently Asked Questions
                          </h2>
                          <ul className="faq__list">
                               <li className="faq__entry">
-                                   <div className="faq__question">
+                                   <div className="faq__question accordion" onClick={AccordionState}>
                                         How can I schedule a session?
                                    </div>
-                                   <div className="faq__answer">
+                                   <div className="faq__answer accordion-panel">
                                         Use the <Link to={"/phone-consultation"}>contact form</Link> to schedule a free phone consultation or email <Link to={"mailto:support@roseandsooy.com?subject=Initial%20Contact"}> support@roseandsooy.com</Link>.
                                    </div>
                               </li>
