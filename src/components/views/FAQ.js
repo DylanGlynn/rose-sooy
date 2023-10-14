@@ -2,7 +2,7 @@ import FAQPhoto from "../../img/NatureImgs/IMG_9358.JPG"
 import { Link } from "react-router-dom"
 
 export const FAQ = () => {
-     var acc = document.getElementsByClassName("accordion");
+     var acc = document.getElementsByClassName("faq__question");
      var i;
 
      let AccordionState = () => {
@@ -29,23 +29,15 @@ export const FAQ = () => {
                          </h2>
                          <ul className="faq__list">
                               <li className="faq__entry">
-                                   <div className="faq__question accordion" onClick={AccordionState}>
+                                   <div className="faq__question" onClick={AccordionState}>
                                         How can I schedule a session?
                                    </div>
-                                   <div className="faq__answer accordion-panel">
-                                        Use the <Link to={"/phone-consultation"}>contact form</Link> to schedule a free phone consultation or email <Link to={"mailto:support@roseandsooy.com?subject=Initial%20Contact"}> support@roseandsooy.com</Link>.
+                                   <div className="faq__answer">
+                                        Use the <i><Link to={"/phone-consultation"}>contact form</Link></i> to schedule a free phone consultation or email <i><Link to={"mailto:support@roseandsooy.com?subject=Initial%20Contact"}> support@roseandsooy.com</Link></i>.
                                    </div>
                               </li>
-                              {/* <li className="faq__entry">
-                              <button onClick={faqAccordion('faq__answer')} className="faq__question">
-                              How can I schedule a session?
-                              </button>
-                              <div className="faq__answer" id="faq__answer">
-                              Use the <Link to={"/phone-consultation"}>contact form</Link> to schedule a free phone consultation or email <Link to={"mailto:support@roseandsooy.com?subject=Initial%20Contact"}> support@roseandsooy.com</Link>.
-                              </div>
-                         </li> */}
                               <li className="faq__entry">
-                                   <div className="faq__question">
+                                   <div className="faq__question" onClick={AccordionState}>
                                         What should I expect in a consult call?
                                    </div>
                                    <div className="faq__answer">
@@ -53,7 +45,7 @@ export const FAQ = () => {
                                    </div>
                               </li>
                               <li className="faq__entry">
-                                   <div className="faq__question">
+                                   <div className="faq__question" onClick={AccordionState}>
                                         What if I do not live in Tennessee?
                                    </div>
                                    <div className="faq__answer">
@@ -61,7 +53,7 @@ export const FAQ = () => {
                                    </div>
                               </li>
                               <li className="faq__entry">
-                                   <div className="faq__question">
+                                   <div className="faq__question" onClick={AccordionState}>
                                         What happens in the first session?
                                    </div>
                                    <div className="faq__answer">
@@ -69,7 +61,7 @@ export const FAQ = () => {
                                    </div>
                               </li>
                               <li className="faq__entry">
-                                   <div className="faq__question">
+                                   <div className="faq__question" onClick={AccordionState}>
                                         What if I need to cancel?
                                    </div>
                                    <div className="faq__answer">
@@ -77,7 +69,7 @@ export const FAQ = () => {
                                    </div>
                               </li >
                               <li className="faq__entry">
-                                   <div className="faq__question">
+                                   <div className="faq__question" onClick={AccordionState}>
                                         Do you provide religious therapy?
                                    </div>
                                    <div className="faq__answer">
@@ -85,7 +77,7 @@ export const FAQ = () => {
                                    </div>
                               </li >
                               <li className="faq__entry">
-                                   <div className="faq__question">
+                                   <div className="faq__question" onClick={AccordionState}>
                                         Can you prescribe medications or complete psych testing?
                                    </div>
                                    <div className="faq__answer">
@@ -93,7 +85,7 @@ export const FAQ = () => {
                                    </div>
                               </li >
                               <li className="faq__entry">
-                                   <div className="faq__question">
+                                   <div className="faq__question" onClick={AccordionState}>
                                         How often will we meet and how long will I be in therapy?
                                    </div>
                                    <div className="faq__answer">
@@ -102,12 +94,12 @@ export const FAQ = () => {
                               </li >
                          </ul >
                     </article>
-                    <article className="faq__group-right">
-                         <div className="faq__group-right_photo">
-                              <img className="faq__group-right_pic" src={FAQPhoto} alt="Services" />
-                         </div>
-                    </article>
                </div >
+               <article className="faq__group-right">
+                    <div className="faq__group-right_photo">
+                         <img className="faq__group-right_pic" src={FAQPhoto} alt="FAQ Trail" />
+                    </div>
+               </article>
           </>
      )
 }

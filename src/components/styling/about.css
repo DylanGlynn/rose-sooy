@@ -1,5 +1,5 @@
 .about {
-     padding: 0% 1.5% 2% 1.5%;
+     /* padding: 0% 1.5% 2% 1.5%; */
 }
 
 .about__heading {
@@ -18,7 +18,11 @@
 }
 
 .about__practice {
+     margin: 0;
+}
 
+.about__therapists {
+     padding: 0% 1.5% 2% 1.5%;
 }
 
 .about__therapist-bio {

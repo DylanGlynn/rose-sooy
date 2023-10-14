@@ -26,5 +26,39 @@
                "services": "Virtual + In-Person sessions for individuals and couples. Walk + Talk therapy at the Nashville Greenway. EMDR intensives.",
                "id": 3
           }
+     ],
+     "services": [
+          {
+               "name": "Individual Therapy",
+               "picture": "src/img/ServicesImgs/IndividualTherapy.png",
+               "description_blurb": "",
+               "description_full": "",
+               "quote": 0,
+               "id": 1
+          },
+          {
+               "name": "",
+               "picture": "",
+               "description_blurb": "",
+               "description_full": "",
+               "quote": 0,
+               "id": 2
+          },
+          {
+               "name": "",
+               "picture": "",
+               "description_blurb": "",
+               "description_full": "",
+               "quote": 0,
+               "id": 3
+          },
+          {
+               "name": "",
+               "picture": "",
+               "description_blurb": "",
+               "description_full": "",
+               "quote": 0,
+               "id": 4
+          }
      ]
 }

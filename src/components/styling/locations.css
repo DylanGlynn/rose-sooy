@@ -1,0 +1,58 @@
+.location {
+     display: flex;
+     flex-flow: column nowrap;
+     justify-content: top;
+     max-width: 30%;
+}
+
+.location__address {
+     margin: 1% 0 0 15px;
+}
+
+.location__info {
+     margin: 1.50% 0 0.50% 0;
+     text-align: justify;
+}
+
+.location__name {
+     color: rgb(115, 143, 170);
+     font-size: 1.5em;
+     font-weight: 100;
+     margin: 1.50% 0;
+     text-decoration: underline;
+}
+
+.location__pic {
+}
+
+.location__pic-img {
+     display: block;
+     max-width: 100%;
+}
+
+.locations {
+     margin: 0 auto 1.50% auto;
+}
+
+.locations__group {
+     display: flex;
+     flex-flow: column nowrap;
+     justify-content: center;
+     margin: 0 0 3.5% 0;
+}
+
+.locations__group {
+     display: flex;
+     flex-flow: row nowrap;
+     justify-content: space-evenly;
+}
+
+.locations__h2 {
+     color: rgb(115, 143, 170);
+     font-family: Caprasimo;
+     font-size: 2em;
+     font-weight: 100;
+     margin: 0 0 1% 0;
+     text-align: center;
+     text-decoration: underline;
+}

@@ -1,89 +1,52 @@
 .services {
      display: flex;
-     flex-flow: row nowrap;
-     justify-content: space-around;
-     padding: 0% 2.50% 1.5% 2.50%;
-}
-
-.services__body {
-     color: rgb(255, 255, 255);
-     margin: 0;
-}
-
-.services__emphasis-underline {
-     text-decoration: underline;
-     margin-bottom: 2px;
-}
-
-.services__fees {
-     background-color: rgb(115, 143, 170);
-     padding: 0.125% 1%;
-     border-bottom-right-radius: 3em;
-     border-bottom-left-radius: 3em;
-}
-
-.services__group-left {
-     display: flex;
      flex-flow: column nowrap;
-     justify-content: center;
-}
-
-.services__group-right_photo {
-     height: 50em;
-     zoom: 55%;
-}
-
-.services__group-right {
-     border-top-right-radius: 18em;
-     border-top-left-radius: 18em;
-     overflow: hidden;
-     margin: 0 0 0 1%;     
+     justify-content: space-around;
+     padding: 0% 1.50% 1.5% 1.50%;
 }
 
 .services__h2 {
-     background-color: rgb(84, 47, 31);
-     border-top-left-radius: 3rem;
-     border-top-right-radius: 3rem;
-     color: rgb(255, 255, 255);
+     color: rgb(115, 143, 170);
      font-family: Caprasimo;
      font-size: 2em;
-     font-weight: 400;
-     margin: 0;
-     text-align: center;
-}
-
-.services__h4 {
-     color: rgb(255, 255, 255);
-     font-family: Caprasimo;
-     font-size: 1.5em;
      font-weight: 100;
-     margin: 10px 0 2px 0;
+     margin: 0 0 1% 0;
+     text-align: center;
      text-decoration: underline;
 }
 
-.services__heading {}
+.services__h2-half {
+     color: rgb(115, 143, 170);
+     font-size: 1.5em;
+     font-weight: 100;
+     margin: 1.50% 0;
+     text-decoration: underline;
+}
 
-.services__list {
-     list-style-type: none;
-     margin: 5px 0;
+.services__details {
+     display: flex;
+     flex-flow: row nowrap;
+     font-size: 110%;
+     /* justify-content: space-around; */
+}
+
+.services__details-half {
 
 }
 
-.services__list-item {
-     margin: 0;
+.services__full {
+     display: flex;
+     flex-flow: column;
+     justify-content: space-evenly;
+     width: 55%;
 }
 
-.services__locations {
-     background-color: rgb(92, 113, 106);
-     padding: 0.125% 1%;
+.services__photo-full {
+     display: block;
+     max-width: 50%;
 }
 
-.services__provided {
-     background-color: rgb(179, 117, 115);
-     padding: 0.125% 1%;
-}
-
-.services__session-paragraph {
-     margin: 0.1% 0.5%;
-     text-indent: 15px;
+.services__photo-half {
+     display: block;
+     max-width: 35%;
 }

@@ -1,4 +1,6 @@
 import { AboutForHome, AboutJodieRosenblum, AboutKaelieSooy } from "./About";
+import { ConnectButton } from "./ConnectButton";
+import { LocationOptions } from "./LocationOptions";
 import { Quote01, Quote02 } from "./Quotes";
 import { ServicesForHome } from "./Services"
 
@@ -17,12 +19,14 @@ export const Home = () => {
                </section>
                <section className="home__page">
                </section >
-               <Quote01 />
                <AboutForHome />
+               <Quote01 />
                <AboutJodieRosenblum />
                <AboutKaelieSooy />
-               <Quote02 />
                <ServicesForHome />
+               <LocationOptions />
+               <Quote02 />
+               <ConnectButton />
           </>
      )
 }

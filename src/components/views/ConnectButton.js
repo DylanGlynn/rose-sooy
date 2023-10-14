@@ -1,6 +1,12 @@
+import { Link } from "react-router-dom"
+
 export const ConnectButton = () => {
      return (
-          <button className="connect__button">CONNECT</button>
+          <article className="button">
+               <div className="connect__button-general">
+                    <button className="connect__button" onClick={""}>CONNECT</button>
+               </div>
+          </article >
      )
 }
 
@@ -8,7 +14,7 @@ export const ConnectButtonJodie = () => {
      return (
           <article className="button">
                <div className="connect__button-jodie">
-                    <button className="connect__button">CONNECT</button>
+                    <button className="connect__button" onClick={""}>CONNECT</button>
                </div>
           </article>
      )
@@ -16,6 +22,20 @@ export const ConnectButtonJodie = () => {
 
 export const ConnectButtonKaelie = () => {
      return (
-          <button className="connect__button connect__button-kaelie">Connect</button>
+          <article className="button">
+               <div className="connect__button-kaelie">
+                    <button className="connect__button" onClick={""}>CONNECT</button>
+               </div>
+          </article>
+     )
+}
+
+export const LearnMoreAdolescents = () => {
+     return (
+          <article className="button">
+               <div className="button__learn">
+                    <Link to="/services/adolescents" ><button className="learn__button">LEARN MORE</button></Link>
+               </div>
+          </article>
      )
 }

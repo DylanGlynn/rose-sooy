@@ -1,0 +1,130 @@
+.home__quotes {
+     display: flex;
+     flex-flow: column wrap;
+     margin: 0 35%;
+     color: rgb(255, 255, 255);
+}
+
+.home_quotes-01 {
+     display: flex;
+     flex-flow: column nowrap;
+     /* margin: 0; */
+     /* padding: 0 0 20% 0; */
+}
+
+.home__quote-01-attribute {
+     text-align: right;
+}
+
+.home__quote-01-right {
+     display: flex;
+     flex-flow: column nowrap;
+     margin: 0 5%;
+     align-content: center;
+     justify-content: center;
+}
+
+.home__quote-01-quote {
+     color: rgb(255, 255, 255);
+     font-family: Borel;
+     font-weight: 800;
+     font-size: x-large;
+}
+
+.home_quotes-02 {
+     display: flex;
+     flex-flow: column nowrap;
+     /* margin: 0; */
+     /* padding: 0 0 20% 0; */
+}
+
+.home__quote-02-attribute {
+     text-align: right;
+}
+
+.home__quote-02-pic {
+     height: 50%;
+}
+
+.home__quote-02-right {
+     display: flex;
+     flex-flow: column nowrap;
+     margin: 0 5%;
+     align-content: center;
+     justify-content: center;
+}
+
+.home__quote-02-quote {
+     color: rgb(255, 255, 255);
+     font-family: Borel;
+     font-weight: 800;
+     font-size: x-large;
+}
+
+.home__quote_book-title {
+     font-style: italic;
+}
+
+.quotes {
+     display: flex;
+     flex-flow: column wrap;
+     margin: 0;
+     color: rgb(255, 255, 255);
+}
+
+.quote__attribute {
+     font-size: 1.5rem;
+     margin: 0;
+     text-align: right;
+}
+
+.quote__book-title {
+     font-style: italic;
+}
+
+.quote__details {
+     display: flex;
+     flex-flow: column nowrap;
+     margin: 0 5%;
+     align-content: center;
+     justify-content: center;
+}
+
+.quote__home-01 {
+     color: rgb(255, 255, 255);
+     display: flex;
+     flex-flow: row nowrap;
+     justify-content: space-around;
+     background-image: url(../../img/NatureImgs/IMG_0604.JPG);
+     margin: 0 0 0.50% 0;
+     padding: 3%;
+     background-position: center;
+}
+
+.quote__home-02 {
+     color: rgb(255, 255, 255);
+     display: flex;
+     flex-flow: row nowrap;
+     justify-content: space-around;
+     background-image: url(../../img/NatureImgs/IMG_1314.JPG);
+     margin: 0 0 0.50% 0;
+     padding: 3%;
+     background-position: center;
+}
+
+.quote__quote {
+     color: rgb(255, 255, 255);
+     font-family: Borel;
+     font-weight: 800;
+     font-size: 2.5rem;
+}
+
+.quote__services-03 {
+     color: rgb(255, 255, 255);
+     display: flex;
+     flex-flow: row nowrap;
+     justify-content: space-around;
+     background-image: url(../../img/NatureImgs/IMG_9394.JPG);
+     padding: 3%;
+     background-position: center;
+}

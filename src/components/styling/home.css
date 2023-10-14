@@ -62,99 +62,6 @@
      padding-top: 0.5%;
 }
 
-.home__quotes {
-     display: flex;
-     flex-flow: column wrap;
-     margin: 0 35%;
-     color: rgb(255, 255, 255);
-}
-
-.home_quotes-01 {
-     display: flex;
-     flex-flow: column nowrap;
-     /* margin: 0; */
-     /* padding: 0 0 20% 0; */
-}
-
-.home__quote-01 {
-     color: rgb(255, 255, 255);
-     display: flex;
-     flex-flow: row nowrap;
-     justify-content: space-around;
-     background-image: url(../../img/NatureImgs/IMG_0604.JPG);
-     margin: 0 0 1% 0;
-     padding: 8%;
-     background-position: center;
-}
-
-.home__quote-01-attribute {
-     text-align: right;
-}
-
-.home__quote-01-pic {
-     height: 50%;
-}
-
-.home__quote-01-right {
-     display: flex;
-     flex-flow: column nowrap;  
-     margin: 0 5%;
-     align-content: center;
-     justify-content: center;
-}
-
-.home__quote-01-quote {
-     color: rgb(255, 255, 255);
-     font-family: Borel;   
-     font-weight: 800;
-     font-size:x-large;
-}
-
-.home_quotes-02 {
-     display: flex;
-     flex-flow: column nowrap;
-     /* margin: 0; */
-     /* padding: 0 0 20% 0; */
-}
-
-.home__quote-02 {
-     color: rgb(255, 255, 255);
-     display: flex;
-     flex-flow: row nowrap;
-     justify-content: space-around;
-     background-image: url(../../img/NatureImgs/IMG_1314.JPG);
-     margin: 0 0 1% 0;
-     padding: 8%;
-     background-position: center;
-}
-
-.home__quote-02-attribute {
-     text-align: right;
-}
-
-.home__quote-02-pic {
-     height: 50%;
-}
-
-.home__quote-02-right {
-     display: flex;
-     flex-flow: column nowrap;  
-     margin: 0 5%;
-     align-content: center;
-     justify-content: center;
-}
-
-.home__quote-02-quote {
-     color: rgb(255, 255, 255);
-     font-family: Borel;   
-     font-weight: 800;
-     font-size:x-large;
-}
-
-.home__quote_book-title {
-     font-style: italic;
-}
-
 .home__welcome-logo {
      align-self: normal;
      background-color: rgb(205, 125, 67);
@@ -176,4 +83,19 @@
      max-width: 15%;
      object-fit: cover;
      object-position: center;
+}
+
+.home__services-h2 {
+     color: rgb(115, 143, 170);
+     font-family: Caprasimo;
+     font-size: 2em;
+     font-weight: 100;
+     margin: 0;
+     text-align: center;
+     text-decoration: underline;
+}
+
+.home__services-list {
+     display: flex;
+     flex-flow: row wrap;
 }

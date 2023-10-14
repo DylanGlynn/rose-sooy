@@ -1,3 +1,7 @@
+.active, .faq__question:hover {
+     /* background-color: rgba(115, 143, 170, 0.25); */
+}
+
 .faqs {
      display: flex;
      flex-flow: row nowrap;
@@ -6,7 +10,13 @@
 }
 
 .faq__answer {
-     text-indent: 5px;
+     background-color: rgba(255, 255, 255, 0.15);
+     margin: 0 0 0 1.5%;
+     max-height: 0;
+     overflow: hidden;
+     padding: 0 0.5%;
+     text-indent: 1%;
+     transition: max-height 0.2s ease-out;
 }
 
 .faq__entry {
@@ -18,7 +28,7 @@
      font-family: Caprasimo;
      font-size: 1.5em;
      font-weight: 100;
-     margin: 2% 0 2% 0;
+     margin: 2% 0;
      text-decoration: underline;
 }
 
@@ -27,13 +37,15 @@
 }
 
 .faq__group-right {
-     border-radius: 3em;
-     overflow: hidden;
+     display: flex;
+     justify-content: center;
 }
 
 .faq__group-right_photo {
-     height: 3rem;
-     zoom: 55%;
+     overflow: hidden;
+     border-radius: 3em;
+     zoom: 35%;
+     align-items: center;
 }
 
 ul.faq__list {
@@ -43,8 +55,20 @@ ul.faq__list {
 }
 
 .faq__question {
+     color: rgb(115, 143, 170);
+     cursor: pointer;
+     transition: 0.4s;
      font-size: 1.25em;
      font-style: italic;
      font-weight: 800;
-     color: rgb(46, 87, 32)
+}
+
+.faq__question:after {
+     content: '\1F783';
+     float: right;
+     font-style: normal;
+}
+
+.active:after {
+     content: "\1F781";
 }

@@ -29,7 +29,7 @@
 }
 
 .active, .services__individuals-accordion:hover {
-     background-color: rgba(115, 143, 170, 0.25);
+     /* background-color: rgba(115, 143, 170, 0.25); */
 }
 
 .services__individuals-accordion-panel {
@@ -47,9 +47,7 @@
      font-size: 90%;
 }
 
-.active:after {
-     content: "\2796";
-}
+
 
 .services__individuals-paragraph-panel {
      color: rgba(115, 143, 170);
