@@ -1,6 +1,7 @@
 import LocationsInOffice from "../../img/NatureImgs/Locations/InOffice.png"
 import LocationsTelehealth from "../../img/NatureImgs/Locations/TelehealthSessions.png"
 import LocationsWalkTalk from "../../img/NatureImgs/Locations/WalkTalk.png"
+import { ConnectButton } from "./ConnectButton"
 
 export const LocationOptions = () => {
      return (
@@ -48,5 +49,15 @@ export const LocationOptions = () => {
                     </article>
                </section>
           </section>
+     )
+}
+
+export const LocationOptionsSpacing = () => {
+     return (
+          <>
+               <div className='header__spacer' />
+               <LocationOptions />
+               <ConnectButton />
+          </>
      )
 }

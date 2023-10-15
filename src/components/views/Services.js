@@ -1,16 +1,17 @@
 import ServicesPhoto from "../../img/NatureImgs/IMG_9523.JPG"
-import { Quote01, QuoteServices03 } from "./Quotes"
+import { Quote01, QuoteServices01, QuoteServices03 } from "./Quotes"
 import AdolescentTherapyImg from "../../img/ServicesImgs/AdolescentTherapy.png"
-import { ConnectButton, LearnMore, LearnMoreAdolescents } from "./ConnectButton"
+import IndividualTherapyImg from "../../img/ServicesImgs/IndividualTherapy.png"
+import { ConnectButton, LearnMore, LearnMoreAdolescents, LearnMoreIndividuals } from "./ConnectButton"
 
 export const ServicesForHome = () => {
      return (
-          <section className="home__services+">
+          <section className="home__services">
                <div className="home__services-h2">
                     Services
                </div>
                <article className="home__services-list">
-                    <ServicesAdolescents />
+                    <ServicesIndividualAdults />
                     <ServicesAdolescents />
                     <ServicesAdolescents />
                     <ServicesAdolescents />
@@ -22,62 +23,54 @@ export const ServicesForHome = () => {
 export const Services = () => {
      return (
           <>
-               {/* <div className='header__spacer' /> */}
+               <div className='header__spacer' />
                <ServicesForHome />
           </>
      )
 }
 
 export const ServicesIndividualAdults = () => {
-     var acc = document.getElementsByClassName("services__individuals-accordion");
-     var i;
-
-     let AccordionState = () => {
-          for (i = 0; i < acc.length; i++) {
-               acc[i].addEventListener("click", function () {
-                    this.classList.toggle("active");
-                    var panel = this.nextElementSibling;
-                    if (panel.style.maxHeight) {
-                         panel.style.maxHeight = null;
-                    } else {
-                         panel.style.maxHeight = panel.scrollHeight + "px";
-                    }
-               });
-          }
-     }
-
      return (
           <>
-               <section className="services__individuals">
-                    <h2 className="services__individuals-h2">
-                         Individual Adult Counseling
-                    </h2>
-                    <div className="services__individuals-body">
-                         <div className="services__individuals-accordion" onClick={AccordionState}>
-                              Individual Therapy is a collaborative and relational process of discovering a deeper understanding of oneself. Your therapist with Rose and Sooy will not only provide you with support for navigating life’s stressors, but will help you create a compass towards a life guided by your values.
+               <section className="services__half">
+                    <article className="services__details-half">
+                         <div className="services__pic-half">
+                              <img className="services__photo-half" src={IndividualTherapyImg} alt="Adolescent Therapy" />
                          </div>
-                         <div className="services__individuals-accordion-panel">
-                              <p>
-                                   Individual Therapy is a collaborative and relational process of discovering a deeper understanding of oneself. Your therapist with Rose and Sooy will not only provide you with support for navigating life’s stressors, but will help you create a compass towards a life guided by your values. Self-discovery, self-help and self-talk can be great tools but can only go so far. Therapy can provide a more objective perspective from a kind, caring expert on psychology (that’s us!) to help you make sense of your subjective experience of reality.
-                              </p>
-                              <p>
-                                   We believe the outcome of therapy is most predicted by the relationship between the therapist and the client. We honor you as the expert on yourself; your truth, your desires and your goals. Individual therapy is a great place to explore yourself and refine your techniques for improving your life, reaching your goals and caring for yourself. This can help our clients build confidence to ask for what they need, from themselves and the world around them. Who couldn’t use a fresh perspective on how to be kind to yourself, resolve a conflict with a friend, or set a boundary with a family member? Individual therapy is like a dress rehearsal for life; you’re free to try out new techniques and see what works and what doesn’t, all from the comfort of a very low stakes therapy office. Or even from your own couch!
-                              </p>
-                              <p>
-                                   At Rose and Sooy Counseling, we integrate a variety of evidence based practices to provide holistic care, catered to each individual. We offer a safe space for you to express and feel your emotions and reconnect with your mind and body. Each session is approached with curiosity, non-judgment and a trauma-informed lens. We utilize Acceptance and Commitment Therapy (ACT) to help you find acceptance for things outside of your control and take meaningful action on things you are capable of changing. We also employ a range of other evidence-based cognitive behavioral therapies such as Cognitive Behavioral Therapy (CBT) to discover how unhelpful thinking styles may be convincing you to stay in old patterns of behavior that may have been protective in the past but are no longer serving you.
-                              </p>
+                         <div className="services__half-header">
+                              <div className="services__h2-half">
+                                   Individual Therapy
+                              </div>
+                              <p className="services__half-paragraph" />Individual Therapy is a collaborative and relational process of discovering a deeper understanding of oneself. Your therapist with Rose and Sooy will not only provide you with support for navigating life’s stressors, but will help you create a compass towards a life guided by your values.  
                          </div>
-                    </div>
+                    </article>
+                    <LearnMoreIndividuals />
                </section>
           </>
      )
 }
 
-export const ServicesIndividualAdultsSpacing = () => {
+export const ServicesIndividualAdultsFull = () => {
      return (
           <>
                <div className='header__spacer' />
-               <ServicesIndividualAdults />
+               <section className="services">
+                    <div className="services__h2">
+                         Individual Therapy
+                    </div>
+                    <article className="services__details">
+                         <div className="services__full">
+                              <p className="services__full-paragraph" />Individual Therapy is a collaborative and relational process of discovering a deeper understanding of oneself. Your therapist with Rose and Sooy will not only provide you with support for navigating life’s stressors, but will help you create a compass towards a life guided by your values. Self-discovery, self-help and self-talk can be great tools but can only go so far. Therapy can provide a more objective perspective from a kind, caring expert on psychology (that’s us!) to help you make sense of your subjective experience of reality.
+                              <p className="services__full-paragraph" />We believe the outcome of therapy is most predicted by the relationship between the therapist and the client. We honor you as the expert on yourself; your truth, your desires and your goals. Individual therapy is a great place to explore yourself and refine your techniques for improving your life, reaching your goals and caring for yourself. This can help our clients build confidence to ask for what they need, from themselves and the world around them. Who couldn’t use a fresh perspective on how to be kind to yourself, resolve a conflict with a friend, or set a boundary with a family member? Individual therapy is like a dress rehearsal for life; you’re free to try out new techniques and see what works and what doesn’t, all from the comfort of a very low stakes therapy office. Or even from your own couch!
+                              <p className="services__full-paragraph" />At Rose + Sooy Counseling, we integrate a variety of evidence based practices to provide holistic care, catered to each individual. We offer a safe space for you to express and feel your emotions and reconnect with your mind and body. Each session is approached with curiosity, non-judgment and a trauma-informed lens. We utilize Acceptance and Commitment Therapy (ACT) to help you find acceptance for things outside of your control and take meaningful action on things you are capable of changing. We also employ a range of other evidence-based cognitive behavioral therapies such as Cognitive Behavioral Therapy (CBT) to discover how unhelpful thinking styles may be convincing you to stay in old patterns of behavior that may have been protective in the past but are no longer serving you.
+                         </div>
+                         <div className="services__pic">
+                              <img className="services__photo-full" src={IndividualTherapyImg} alt="Adolescent Therapy" />
+                         </div>
+                    </article>
+                    <ConnectButton />
+               </section>
+               <QuoteServices01 />
           </>
      )
 }
@@ -120,13 +113,12 @@ export const ServicesCouplesMarriageSpacing = () => {
 export const ServicesAdolescents = () => {
      return (
           <>
-               <div className='header__spacer' />
-               <section className="services-half">
+               <section className="services__half">
                     <article className="services__details-half">
                          <div className="services__pic-half">
                               <img className="services__photo-half" src={AdolescentTherapyImg} alt="Adolescent Therapy" />
                          </div>
-                         <div className="services__half">
+                         <div className="services__half-header">
                               <div className="services__h2-half">
                                    Adolescent Therapy
                               </div>
@@ -139,7 +131,7 @@ export const ServicesAdolescents = () => {
      )
 }
 
-export const ServicesAdolescentsSpacing = () => {
+export const ServicesAdolescentsFull = () => {
      return (
           <>
                <div className='header__spacer' />
@@ -151,33 +143,14 @@ export const ServicesAdolescentsSpacing = () => {
                          <div className="services__full">
                               <p className="services__full-paragraph" />Adolescent therapy provides teens with a safe space for self-exploration, an opportunity to learn new tools for understanding and regulating their emotions, and some help with navigating all the life changes, pressures, drama, excitement, heartache and more that come with the teen years.
                               <p className="services__full-paragraph" />Being a teenager can be so hard! Our lives are typically changing at a rapid pace, there are so many choices and decisions to navigate, and teens are under so much pressure to perform. Rose and Sooy counseling provides therapy to adolescents for a wide range of issues, including sports and performance psychology, body image issues, help with learning how to interpret and express how we’re feeling, to how to handle bullying, get extra help with subjects teens might be struggling with in school, to sexuality.
-                              <ConnectButton />
                          </div>
                          <div className="services__pic">
                               <img className="services__photo-full" src={AdolescentTherapyImg} alt="Adolescent Therapy" />
                          </div>
                     </article>
+                    <ConnectButton />
                </section>
                <QuoteServices03 />
           </>
      )
 }
-
-{/* <>
-               <section className="services__adolescents">
-                    <h2 className="services__adolescents-h2">
-                         Adolescent Therapy
-                    </h2>
-                    <div className="services__adolescents-body">
-                         <div className="services__adolescents-paragraph">
-                              Adolescent therapy provides teens with a safe space for self-exploration, an opportunity to learn new tools for understanding and regulating their emotions, and some help with navigating all the life changes, pressures, drama, excitement, heartache and more that come with the teen years.
-                         </div>
-                         <div className="services__adolescents-paragraph-dropdown">
-                              Adolescent therapy provides teens with a safe space for self-exploration, an opportunity to learn new tools for understanding and regulating their emotions, and some help with navigating all the life changes, pressures, drama, excitement, heartache and more that come with the teen years.
-                         </div>
-                         <div className="services__adolescents-paragraph-dropdown">
-                              Being a teenager can be so hard! Our lives are typically changing at a rapid pace, there are so many choices and decisions to navigate, and teens are under so much pressure to perform. Rose and Sooy counseling provides therapy to adolescents for a wide range of issues, including sports and performance psychology, body image issues, help with learning how to interpret and express how we’re feeling, to how to handle bullying, get extra help with subjects teens might be struggling with in school, to sexuality. 
-                         </div>
-                    </div>
-               </section>
-          </> */}

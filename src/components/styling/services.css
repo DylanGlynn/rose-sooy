@@ -1,8 +1,28 @@
 .services {
      display: flex;
      flex-flow: column nowrap;
-     justify-content: space-around;
      padding: 0% 1.50% 1.5% 1.50%;
+}
+
+.services__details {
+     display: flex;
+     flex-flow: row nowrap;
+     font-size: 110%;
+     margin: 0 auto  1.5% auto;
+     width: 85%;
+}
+
+.services__details-half {
+     display: flex;
+     flex-flow: column nowrap;
+     margin: 0 auto  1.5% auto;
+     width: 85%;
+}
+
+.services__full {
+     display: flex;
+     flex-flow: column;
+     width: 75%;
 }
 
 .services__h2 {
@@ -23,30 +43,25 @@
      text-decoration: underline;
 }
 
-.services__details {
+.services__half {
      display: flex;
-     flex-flow: row nowrap;
-     font-size: 110%;
-     /* justify-content: space-around; */
+     flex-flow: column nowrap;
+     margin: 0.5% 0;
+     width: 50%;
 }
 
-.services__details-half {
-
-}
-
-.services__full {
-     display: flex;
-     flex-flow: column;
-     justify-content: space-evenly;
-     width: 55%;
+.services__half-paragraph {
+     display: block;
+     width: 75%;
 }
 
 .services__photo-full {
      display: block;
-     max-width: 50%;
+     max-width: 55%;
+     margin: 0 0 0 2%;
 }
 
 .services__photo-half {
      display: block;
-     max-width: 35%;
+     max-width: 75%;
 }

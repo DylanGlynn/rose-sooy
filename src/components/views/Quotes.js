@@ -78,13 +78,13 @@ export const QuoteServices01 = () => {
      return (
           <>
                <article className="quotes">
-                    <div className="quote__services-03">
+                    <div className="quote__services-01">
                          <div className="quote__details">
                               <div className="quote__quote">
-                                   “In case nobody told you today—you're special. In case nobody made you believe—you're special.”
+                              “For me, the process of embodying confidence was less about convincing myself of my own worth and more about rejecting and unlearning what society had hammered into me.”
                               </div>
                               <div className="quote__attribute">
-                                   - Lizzo <span className="quote__book-title"></span>
+                                   - Lindy West, <span className="quote__book-title">Shrill: Notes from a Loud Woman</span>
                               </div>
                          </div>
                     </div>
@@ -97,7 +97,7 @@ export const QuoteServices02 = () => {
      return (
           <>
                <article className="quotes">
-                    <div className="quote__services-03">
+                    <div className="quote__services-02">
                          <div className="quote__details">
                               <div className="quote__quote">
                                    “In case nobody told you today—you're special. In case nobody made you believe—you're special.”
@@ -135,7 +135,7 @@ export const QuoteServices04 = () => {
      return (
           <>
                <article className="quotes">
-                    <div className="quote__services-03">
+                    <div className="quote__services-04">
                          <div className="quote__details">
                               <div className="quote__quote">
                                    “In case nobody told you today—you're special. In case nobody made you believe—you're special.”

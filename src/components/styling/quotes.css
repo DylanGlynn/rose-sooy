@@ -119,7 +119,37 @@
      font-size: 2.5rem;
 }
 
+.quote__services-01 {
+     color: rgb(255, 255, 255);
+     display: flex;
+     flex-flow: row nowrap;
+     justify-content: space-around;
+     background-image: url(../../img/NatureImgs/IMG_9394.JPG);
+     padding: 3%;
+     background-position: center;
+}
+
+.quote__services-02 {
+     color: rgb(255, 255, 255);
+     display: flex;
+     flex-flow: row nowrap;
+     justify-content: space-around;
+     background-image: url(../../img/NatureImgs/IMG_9394.JPG);
+     padding: 3%;
+     background-position: center;
+}
+
 .quote__services-03 {
+     color: rgb(255, 255, 255);
+     display: flex;
+     flex-flow: row nowrap;
+     justify-content: space-around;
+     background-image: url(../../img/NatureImgs/IMG_9394.JPG);
+     padding: 3%;
+     background-position: center;
+}
+
+.quote__services-04 {
      color: rgb(255, 255, 255);
      display: flex;
      flex-flow: row nowrap;

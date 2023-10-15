@@ -85,6 +85,10 @@
      object-position: center;
 }
 
+.home__services {
+     
+}
+
 .home__services-h2 {
      color: rgb(115, 143, 170);
      font-family: Caprasimo;
@@ -98,4 +102,6 @@
 .home__services-list {
      display: flex;
      flex-flow: row wrap;
+     justify-content: space-around;
+     margin: 1% 0 0 0;
 }
