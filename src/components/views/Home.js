@@ -1,4 +1,4 @@
-import { AboutForHome, AboutJodieRosenblum, AboutKaelieSooy } from "./About";
+import { AboutForHome } from "./About";
 import { ConnectButton } from "./ConnectButton";
 import { LocationOptions } from "./LocationOptions";
 import { Quote01, Quote02 } from "./Quotes";
@@ -21,8 +21,8 @@ export const Home = () => {
                </section >
                <AboutForHome />
                <Quote01 />
-               <AboutJodieRosenblum />
-               <AboutKaelieSooy />
+               {/* <AboutJodieRosenblum />
+               <AboutKaelieSooy /> */}
                <ServicesForHome />
                <LocationOptions />
                <Quote02 />

@@ -5,11 +5,12 @@
 }
 
 .services__details {
+     align-content: space-around;
      display: flex;
      flex-flow: row nowrap;
-     font-size: 110%;
-     margin: 0 auto  1.5% auto;
-     width: 85%;
+     justify-content: space-around;
+     margin: 0 7% 1.5% 7%;
+     overflow: hidden;
 }
 
 .services__details-half {
@@ -22,7 +23,14 @@
 .services__full {
      display: flex;
      flex-flow: column;
-     width: 75%;
+     font-size: 110%;
+     width: 100%;
+}
+
+.services__full-paragraph {
+     display: flex;
+     text-align: justify;
+     text-indent: 5%;
 }
 
 .services__h2 {
@@ -56,12 +64,19 @@
 }
 
 .services__photo-full {
-     display: block;
-     max-width: 55%;
-     margin: 0 0 0 2%;
+     display: flex;
+     margin: 0 0 0 5%;
 }
 
 .services__photo-half {
      display: block;
-     max-width: 75%;
+     width: 75%;
+}
+
+.services__pic {
+     text-align: left;
+     display: flex;
+     flex-flow: column nowrap;
+     overflow: hidden;
+     width: 55%;
 }

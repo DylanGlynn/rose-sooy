@@ -2,23 +2,36 @@
      /* padding: 0% 1.5% 2% 1.5%; */
 }
 
+.about__bio-group {
+     display: flex;
+     flex-flow: row nowrap;
+     align-content: center;
+}
+
 .about__heading {
      margin: 0 0 1.5% 0;
 }
 
-.about__heading-h2 {
+/* .about__heading-h2 {
      background-color: rgba(255, 255, 255, 0.75);
      color: rgb(115, 143, 170);
-     /* font-family: Caprasimo; */
      font-size: 2em;
      font-weight: 100;
      padding: 0.0675% 0;
      margin: 0 0 15px 0;
      text-align: center;
-}
+} */
+
+.about__photo {}
+
+.about__pic {}
 
 .about__practice {
      margin: 0;
+}
+
+.about__practice-bio_body {
+     text-indent: 3%;
 }
 
 .about__therapists {
@@ -26,10 +39,10 @@
 }
 
 .about__therapist-bio {
+     background-color: rgb(179, 117, 115);
      display: flex;
      flex-flow: column nowrap;
      padding: 0 2.5%;
-     background-color: rgb(179, 117, 115);
 }
 
 .about__therapist-bio-body {
@@ -37,7 +50,14 @@
      text-indent: 2.5%;
 }
 
-.about__therapist-h4 {
+.about__therapist-bio_paragraph {
+     text-align: justify;
+     text-indent: 3.00%;
+     padding: 0 0 0.25% 0;
+}
+
+.about__therapist-header {
+     color: rgb(115, 143, 170);
      font-family: Caprasimo;
      font-size: 1.5em;
      font-weight: 100;

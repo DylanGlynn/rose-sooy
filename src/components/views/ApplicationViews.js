@@ -5,8 +5,8 @@ import { FeesPolicies } from "./FeesPolicies"
 import { Home } from "./Home"
 import { Route, Routes } from "react-router-dom"
 import { PhoneConsult } from "./PhoneConsult"
-import { Services, ServicesAdolescentsFull, ServicesCouplesMarriageSpacing, ServicesIndividualAdultsFull } from "./Services"
-import { SpecialtyAreas } from "./Specialities"
+import { Services, ServicesAdolescentsFull, ServicesCouplesMarriageFull, ServicesIndividualAdultsFull } from "./Services"
+import { SpecialtyAreas, SpecialtyAreasFull } from "./Specialties"
 import { LocationOptions, LocationOptionsSpacing } from "./LocationOptions"
 
 export const ApplicationViews = () => {
@@ -23,9 +23,9 @@ export const ApplicationViews = () => {
                <Route path="/phone-consultation" element={<PhoneConsult />} />
                <Route path="/services" element={<Services />} />
                <Route path="/services/individuals" element={<ServicesIndividualAdultsFull />} />
-               <Route path="/services/couples" element={<ServicesCouplesMarriageSpacing />} />
+               <Route path="/services/couples" element={<ServicesCouplesMarriageFull />} />
                <Route path="/services/adolescents" element={<ServicesAdolescentsFull />} />
-               <Route path="/specialty-areas" element={<SpecialtyAreas />} />
+               <Route path="/specialty-areas" element={<SpecialtyAreasFull />} />
           </Routes>
      )
 }

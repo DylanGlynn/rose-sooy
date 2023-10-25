@@ -1,6 +1,6 @@
-import LocationsInOffice from "../../img/NatureImgs/Locations/InOffice.png"
-import LocationsTelehealth from "../../img/NatureImgs/Locations/TelehealthSessions.png"
-import LocationsWalkTalk from "../../img/NatureImgs/Locations/WalkTalk.png"
+import LocationsInOffice from "../../img/Locations/InOffice.png"
+import LocationsTelehealth from "../../img/Locations/TelehealthSessions.png"
+import LocationsWalkTalk from "../../img/Locations/WalkTalk.png"
 import { ConnectButton } from "./ConnectButton"
 
 export const LocationOptions = () => {
@@ -12,7 +12,7 @@ export const LocationOptions = () => {
                <section className="locations__group">
                     <article className="location">
                          <div className="location__pic">
-                              <img className="location__pic-img" src={LocationsTelehealth} />
+                              <img className="location__pic-img" src={LocationsTelehealth} alt="Telehealth"/>
                          </div>
                          <div className="location__name">
                               Telehealth
@@ -23,7 +23,7 @@ export const LocationOptions = () => {
                     </article>
                     <article className="location">
                          <div className="location__pic">
-                              <img className="location__pic-img" src={LocationsInOffice} />
+                              <img className="location__pic-img" src={LocationsInOffice} alt="In-Person"/>
                          </div>
                          <div className="location__name">
                               In Office
@@ -38,7 +38,7 @@ export const LocationOptions = () => {
                     </article>
                     <article className="location">
                          <div className="location__pic">
-                              <img className="location__pic-img" src={LocationsWalkTalk} />
+                              <img className="location__pic-img" src={LocationsWalkTalk} alt="Walk+Talk"/>
                          </div>
                          <div className="location__name">
                               Walk + Talk

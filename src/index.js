@@ -18,6 +18,7 @@ import './components/styling/services.css';
 import './components/styling/services_adolescents.css';
 import './components/styling/services_couples.css';
 import './components/styling/services_individuals.css';
+import './components/styling/specialties.css';
 import App from './Rose+Sooy';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';

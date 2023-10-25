@@ -1,0 +1,18 @@
+.policies {
+     margin: 0 1.5% 1.5% 1.5%;
+}
+
+.policies__h2 {
+     font-family: Caprasimo;
+     font-weight: 400;
+     margin: 0 0 0.5% 0;
+}
+
+.policies__body {
+     
+}
+
+.policies__paragraph {
+     padding: 0 0 0.25% 0;
+     text-indent: 1%;
+}

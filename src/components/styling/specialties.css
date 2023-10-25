@@ -1,0 +1,87 @@
+.specialties {
+     color: rgb(115, 143, 170);
+     font-family: Caprasimo;
+     font-size: 1.5em;
+     font-weight: 100;
+     margin: 2% 0;
+     text-decoration: underline;
+}
+
+.specialties__h2 {
+     color: rgb(115, 143, 170);
+     font-family: Caprasimo;
+     font-size: 2em;
+     font-weight: 100;
+     margin: 0 0 1% 0;
+     text-align: center;
+     text-decoration: underline;
+}
+
+.specialties__list {
+     display: flex;
+     flex-flow: row wrap;
+     justify-content: center;
+}
+
+.specialty {
+     display: flex;
+     flex-flow: column nowrap;
+     margin: 0 0 1.5% 0;
+     max-width: 30%;
+     padding: 1.5%;
+}
+
+.specialty__h4 {
+     color: rgb(115, 143, 170);
+     font-size: 1.5em;
+     font-weight: 100;
+     margin: 0.50% 0% 1.50% 0%;
+     text-align: left;
+     text-decoration: underline;
+}
+
+.specialty__description {
+     align-self: center;
+     text-align: justify;
+     text-indent: 5%;
+}
+
+.specialty__paragraph {
+     margin-bottom: 1%;
+}
+
+.specialty__photo {
+     max-width: 60%;
+}
+
+.specialty__pic {
+     text-align: center;
+}
+
+.specialty__sublist {
+     display: flex;
+     flex-flow: column;
+     justify-content: space-between;
+}
+
+.specialty__sublist-heading {
+     cursor: pointer;
+     text-indent: 1%;
+     transition: 0.4s;
+}
+
+.specialty__sublist-heading:after {
+     content: '\1F783';
+     float: right;
+     font-style: normal;
+}
+
+.specialty__sublist-description {
+     background-color: rgba(255, 255, 255, 0.15);
+     margin: 0 0 0 1.5%;
+     max-height: 0;
+     overflow: hidden;
+     padding: 0 0.5%;
+     text-indent: 1%;
+     transition: max-height 0.2s ease-out;
+}
