@@ -1,0 +1,66 @@
+.about__details_spacer {
+     height: 1rem;
+}
+
+.about__greeting {
+     color: white;
+     font-size: xx-large;
+     text-align: center;
+     text-shadow: 3px 3px 3px rgba(179, 117, 115, 1);
+     text-transform: uppercase;
+}
+
+.about__heading-h2 {
+     background-color: rgba(115, 143, 170, 0.25);
+     border-top: 25px solid rgba(179, 117, 115, 1);
+     padding: 5% 0;
+}
+
+.about__link:link {
+     color: rgb(115, 143, 170);
+}
+
+.about__link:visited {
+     color: rgb(115, 143, 170);
+}
+
+/* .about__practice {
+} */
+
+.about__practice-bio {
+     display: flex;
+     flex-flow: column wrap;
+     justify-content: space-between;
+     padding: 0 0.5% 1.5% 0.5%;
+}
+
+.about__practice-group {
+     background-color: rgba(236, 201, 172, 0.50);
+     color: rgb(115, 143, 170);
+     display: flex;
+     flex-flow: row nowrap;
+}     
+
+.about__practice-photo {
+     max-width: 75%;
+     object-fit: scale-down;
+}     
+
+.about__practice-header {
+     font-family: Caprasimo;
+     font-size: 2.5rem;
+     font-weight: 100;
+     margin: 1% 0 0 0;
+     text-align: center;
+     text-decoration: underline;
+}     
+
+.about__practice-details_header {
+     margin: 1.5% 0;
+}
+
+.about__practice-details_paragraph {
+     margin: 0 0 1% 0;
+     text-align: justify;
+     text-indent: 3%;
+}

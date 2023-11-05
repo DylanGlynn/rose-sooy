@@ -23,13 +23,21 @@ ul.footer__group-middle-list__links {
 
 
 .footer__group-middle {
-     color: rgb(255, 255, 255);
+     color: rgba(88, 89, 91, 1);
      display: flex;
      flex-flow: column nowrap;
      justify-content: center;
      padding: 0.125% 0;
      position: relative;
      text-align: center;
+}
+.footer__link {
+     color: rgba(88, 89, 91, 1);
+}
+
+a.footer__link:link,
+a.footer__link:visited {
+     color: rgba(88, 89, 91, 1);
 }
 
 .footer__group-middle-list {

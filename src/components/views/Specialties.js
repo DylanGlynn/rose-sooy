@@ -19,7 +19,9 @@ export const SpecialtyAreas = () => {
                               <div className="services__h2-half">
                                    Specialty Areas
                               </div>
-                              <p className="services__half-paragraph" />Specialty areas of our work includes trauma processing, body positivity, obsessive-compulsive disorders, and affirming care for LGBTQIA+ and neurodiversity.
+                              <p className="services__half-paragraph">
+                                   Specialty areas of our work includes trauma processing, body positivity, obsessive-compulsive disorders, and affirming care for LGBTQIA+ and neurodiversity.
+                              </p>
                          </div>
                     </article>
                     <LearnMoreSpecialties />

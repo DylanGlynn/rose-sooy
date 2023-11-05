@@ -1,7 +1,8 @@
 import { React } from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import './components/styling/about.css';
+import './components/styling/about-practice.css';
+import './components/styling/about-therapists.css';
 import './components/styling/connect.css';
 import './components/styling/connect_button.css';
 import './components/styling/faqs.css';

@@ -1,7 +1,7 @@
 import TherapistIconJodie from "../../img/TherapistsImgs/RosenblumJodieHeadshot.png"
 import TherapistIconKaelie from "../../img/TherapistsImgs/SooyKaelieHeadshot.png"
-import TherapistIconRoseSooy from "../../img/TherapistsImgs/RoseSooyHome.png"
-import { ConnectButtonJodie, ConnectButtonKaelie } from "./ConnectButton"
+import TherapistIconRoseSooy from "../../img/TherapistsImgs/RoseSooyHomeReduced.png"
+import { ConnectButton, ConnectButtonJodie, ConnectButtonKaelie } from "./ConnectButton"
 import { Quote05, Quote06 } from "./Quotes"
 import { Link } from "react-router-dom"
 
@@ -11,7 +11,7 @@ export const About = () => {
                <div className='header__spacer' />
                <AboutForHome />
                <div className="about__heading-h2">
-                    <h2 className="">
+                    <h2 className="about__greeting">
                          About the therapists!
                     </h2>
                </div>
@@ -24,42 +24,30 @@ export const About = () => {
 export const AboutForHome = () => {
      return (
           <section className="about">
-               <section className="about__practice">
-                    <article className="about__practice???">
-                         <div className="about__practice-row-01???">
-                              <div className="about__practice-row-01-left???">
-                                   <img className="about__practice-pic" src={TherapistIconRoseSooy} alt="Rose + Sooy Counseling" />
-                              </div>
-                              <section className="about__practice-row-01-left???">
-                                   <div className="about__practice-name">
-                                        <h3 className="about__practice-name-h3">
-                                             ROSE + SOOY COUNSELING
-                                        </h3>
-                                   </div>
-                                   <div className="about--practice-bio">
-                                        <h4 className="about--practice-h4">
-                                             Individual Therapy and Couples Counseling
-                                        </h4>
-                                        <div className="about__practice-bio_body">
-                                             <div className="about__practice-bio_paragraph">
-                                                  Meet the co-owners of Rose + Sooy Counseling, <Link to={"/about/jodie-rosenblum"} target="_top">Jodie Rosenblum, LCSW [she/her]</Link> and <Link to="">Kaelie Sooy, LCSW [she/her]</Link>.
-                                             </div>
-                                             <div className="about__practice-bio_paragraph">
-                                                  Therapy is a journey, a weaving winding exploration of what it is that creates meaning in your life. How can you work towards a rich, full and meaningful life aligned by your values? What is it that lights you up? What would a life worth living, a truly lived and embodied life, look like for you? What would your day feel like in your wildest dreams? In the words of Winston Churchill: “Courage isn’t the absence of fear; it’s being afraid and doing it anyway.”
-                                             </div>
-                                             <div className="about__practice-bio_paragraph">
-                                                  Therapy provides the tools to learn how to live mindfully and meaningfully; how do we pack up our fear and take it with us on our journey through life? How do we learn to “do it scared”? How do we make room for joy and exploration in our daily lives? How do we learn to accept and love ourselves as we are, so we can become fully and authentically ourselves that we wish to be? How do we allow ourselves to love others while ensuring that we are treated with the respect we deserve? How do we ground, restore and recenter ourselves on an ongoing basis so we can have the courage to get present, open up, and do what truly matters to us?
-                                             </div>
-                                             <div className="about__practice-bio_paragraph">
-                                                  These are the questions we seek to help you answer on your therapy journey with Rose and Sooy Counseling. We are genuine, curious, nonjudgmental and approach you with wonder and excitement. We’re so glad you’re here!
-                                             </div>
-
-                                        </div>
-                                   </div>
-                              </section>
+               <article className="about__practice-group">
+                    <img className="about__practice-photo" src={TherapistIconRoseSooy} alt="Rose + Sooy Counseling" />
+                    <section className="about__practice-bio">
+                         <h3 className="about__practice-header">
+                         We're glad you're here!
+                         </h3>
+                         {/* <h4 className="about__practice-details_header">
+                              Individual Therapy and Couples Counseling
+                         </h4> */}
+                         <div className="about__practice-details_paragraph">
+                              Meet the co-owners of Rose + Sooy Counseling, <Link className="about__link" to={"/about/jodie-rosenblum"} target="_top">Jodie Rosenblum, LCSW [she/her]</Link> and <Link className="about__link" to="about/kaelie-sooy" target="_top">Kaelie Sooy, LCSW [she/her]</Link>.
                          </div>
-                    </article>
-               </section>
+                         <div className="about__practice-details_paragraph">
+                              Therapy is a journey, a weaving winding exploration of what it is that creates meaning in your life. How can you work towards a rich, full and meaningful life aligned by your values? What is it that lights you up? What would a life worth living, a truly lived and embodied life, look like for you? What would your day feel like in your wildest dreams? In the words of Winston Churchill: “Courage isn’t the absence of fear; it’s being afraid and doing it anyway.”
+                         </div>
+                         <div className="about__practice-details_paragraph">
+                              Therapy provides the tools to learn how to live mindfully and meaningfully; how do we pack up our fear and take it with us on our journey through life? How do we learn to “do it scared”? How do we make room for joy and exploration in our daily lives? How do we learn to accept and love ourselves as we are, so we can become fully and authentically ourselves that we wish to be? How do we allow ourselves to love others while ensuring that we are treated with the respect we deserve? How do we ground, restore and recenter ourselves on an ongoing basis so we can have the courage to get present, open up, and do what truly matters to us?
+                         </div>
+                         <div className="about__practice-details_paragraph">
+                              These are the questions we seek to help you answer on your therapy journey with Rose + Sooy Counseling. We are genuine, curious, nonjudgmental and approach you with wonder and excitement.{/*  We’re so glad you’re here! */}
+                         </div>
+                         <ConnectButton />
+                    </section>
+               </article>
           </section>
      )
 }
@@ -78,14 +66,12 @@ export const AboutKaelieSooySpacing = () => {
 export const AboutKaelieSooy = () => {
      return (
           <article className="about__therapists">
-               <section className="about__therapist-header">
-                    Kaelie Sooy, LCSW (she/they)
-               </section>
                <section className="about__bio-group">
-                    <div className="about__pic">
-                         <img className="about__photo" src={TherapistIconKaelie} alt="Kaelie Sooy, LCSW" />
-                    </div>
+                    <img className="about__photo" src={TherapistIconKaelie} alt="Kaelie Sooy, LCSW" />
                     <div className="about__therapist-bio">
+                         <section className="about__therapist-header">
+                              Kaelie Sooy, LCSW [she/her]
+                         </section>
                          <div className="about__therapist-bio_paragraph">
                               I enter the therapeutic relationship with openness, curiosity, and a trauma-informed lens. I create a safe space for you to share your story; therefore, you can expect a warm, judgment free approach when meeting with me. I know from personal experience how vulnerable therapy can feel. As a therapist who goes to therapy herself, I understand how hard and scary it is but also how rewarding it is to heal and grow. You deserve to show up for yourself in this way too. I would be honored to hold space with you as you embark on this healing journey for yourself.
                          </div>
@@ -95,87 +81,88 @@ export const AboutKaelieSooy = () => {
                          <div className="about__therapist-bio_paragraph">
                               Being a therapist is my dream job and I am passionate about this work. I am the oldest of five children from an endearingly messy and blended family. I have called Nashville home since moving here in 2015 from Cleveland, Ohio. In my free time I enjoy spending time outdoors and can usually be found hiking somewhere with my spouse and our two energetic dogs. I am creative at heart and enjoy expressing myself through art and design. I have a love for learning and am a podcast/audiobook enthusiast.
                          </div>
+                         <ConnectButtonKaelie />
                     </div>
                </section>
                <section className="about__specialty-areas">
-                    <div className="about specialty-header">
+                    <div className="about__specialty-header">
                          Specialty Areas
                     </div>
-                    <div className="about__specialty-list">
-                         <div className="about__specialty-list__item">
+                    <ul className="about__specialty-list">
+                         <li className="about__specialty-list_item">
                               LGBTQIA+
-                         </div>
-                         <div className="about__specialty-list__item">
+                         </li>
+                         <li className="about__specialty-list_item">
                               Trauma + PTSD
-                         </div>
-                         <div className="about__specialty-list__item">
+                         </li>
+                         <li className="about__specialty-list_item">
                               Identity + Self-compassion
-                         </div>
-                         <div className="about__specialty-list__item">
+                         </li>
+                         <li className="about__specialty-list_item">
                               Religious Trauma + Deconstruction
-                         </div>
-                         <div className="about__specialty-list__item">
+                         </li>
+                         <li className="about__specialty-list_item">
                               Perinatal + Postpartum Issues
-                         </div>
-                         <div className="about__specialty-list__item">
+                         </li>
+                         <li className="about__specialty-list_item">
                               Anxiety + Depression
-                         </div>
-                         <div className="about__specialty-list__item">
+                         </li>
+                         <li className="about__specialty-list_item">
                               Relationship Issues
-                         </div>
-                         <div className="about__specialty-list__item">
+                         </li>
+                         <li className="about__specialty-list_item">
                               Life Transitions
-                         </div>
-                         <div className="about__specialty-list__item">
+                         </li>
+                         <li className="about__specialty-list_item">
                               Healthcare Professionals
-                         </div>
-                    </div>
+                         </li>
+                    </ul>
                </section>
                <section className="about__services-group">
                     <article className="about__services">
                          <div className="about__services-header">
                               Services Offered
                          </div>
-                         <div className="about__services-list">
-                              <div className="about__services-list__item">
+                         <ul className="about__services-list">
+                              <li className="about__services-list_item">
                                    Virtual Sessions
-                              </div>
-                              <div className="about__services-list__item">
-                                   In person sessions
-                              </div>
-                              <div className="about__services-list__item">
-                                   Walk and talk therapy at the Nashville Green
-                              </div>way
-                              <div className="about__services-list__item">
+                              </li>
+                              <li className="about__services-list_item">
+                                   In-person sessions
+                              </li>
+                              <li className="about__services-list_item">
+                                   Walk and talk therapy at the Nashville Greenway
+                              </li>
+                              <li className="about__services-list_item">
                                    EMDR intensives
-                              </div>
-                              <div className="about__services-list__item">
+                              </li>
+                              <li className="about__services-list_item">
                                    Adults 18+
-                              </div>
-                         </div>
+                              </li>
+                         </ul>
                     </article>
                     <article className="about__qualifications">
                          <div className="about__qualifications-header">
                               Qualifications
                          </div>
-                         <div className="about__qualifications-list">
-                              <div className="about__qualifications-list__item">
+                         <ul className="about__qualifications-list">
+                              <li className="about__qualifications-list_item">
                                    Licensed Clinical Social Worker (LCSW) in Tennessee
-                              </div>
-                              <div className="about__qualifications-list__item">
+                              </li>
+                              <li className="about__qualifications-list_item">
                                    Trained in EMDR + IFS + CBT + Disordered Eating
-                              </div>
-                              <div className="about__qualifications-list__item">
+                              </li>
+                              <li className="about__qualifications-list_item">
                                    Certified Trauma Treatment Specialist
-                              </div>
-                              <div className="about__qualifications-list__item">
+                              </li>
+                              <li className="about__qualifications-list_item">
                                    Masters of Social Work - University of Tennessee
-                              </div>
-                              <div className="about__qualifications-list__item">
+                              </li>
+                              <li className="about__qualifications-list_item">
                                    Bachelors of Psychology - Taylor University
-                              </div>
+                              </li>
 
-                         </div>
+                         </ul>
                     </article>
                </section>
           </article>
@@ -196,14 +183,12 @@ export const AboutJodieRosenblumSpacing = () => {
 export const AboutJodieRosenblum = () => {
      return (
           <article className="about__therapists">
-               <section className="about__therapist-header">
-                    Jodie Rosenblum, LCSW (she/they)
-               </section>
                <section className="about__bio-group">
-                    <div className="about__pic">
-                         <img className="about__photo" src={TherapistIconJodie} alt="Jodie Rosenblum, LCSW" />
-                    </div>
+                    <img className="about__photo" src={TherapistIconJodie} alt="Jodie Rosenblum, LCSW" />
                     <div className="about__therapist-bio">
+                         <section className="about__therapist-header">
+                              Jodie Rosenblum, LCSW [she/her]
+                         </section>
                          <div className="about__therapist-bio_paragraph">
                               I'm passionate about helping people heal, find joy, live their truth, improve their relationships and create a well-lived life by their own definition. I specialize in working with folks with anxiety, depression, bi-polar disorders, neurodivergence like ADHD and ASD, OCD, self-esteem issues, relationship issues, women's and body-image issues and life transitions. I provide a safe space to explore what a life well lived looks like to each of my clients, and help them create a road map to align their life with their values.
                          </div>
@@ -213,86 +198,87 @@ export const AboutJodieRosenblum = () => {
                          <div className="about__therapist-bio_paragraph">
                               If you’re interested in living a curious life guided by your personal values, decolonizing your mind, unlearning patterns and approaches that are no longer serving you, and learning to love the skin you're in, please reach out to me today. I’m so excited to work with you!
                          </div>
+                         <ConnectButtonJodie />
                     </div>
                </section>
                <section className="about__specialty-areas">
-                    <div className="about specialty-header">
-                         Specialty Areas
+                    <div className="about__specialty-header">
+                         <Link className="about__specialty-header_link" to="/specialty-areas" target="_top">Specialty Areas</Link>
                     </div>
-                    <div className="about__specialty-list">
-                         <div className="about__specialty-list__item">
+                    <ul className="about__specialty-list">
+                         <li className="about__specialty-list_item">
                               ADHD + Neurodiversity
-                         </div>
-                         <div className="about__specialty-list__item">
+                         </li>
+                         <li className="about__specialty-list_item">
                               OCD + Perfectionism
-                         </div>
-                         <div className="about__specialty-list__item">
+                         </li>
+                         <li className="about__specialty-list_item">
                               Performance Anxiety
-                         </div>
-                         <div className="about__specialty-list__item">
+                         </li>
+                         <li className="about__specialty-list_item">
                               Mood Disorders
-                         </div>
-                         <div className="about__specialty-list__item">
+                         </li>
+                         <li className="about__specialty-list_item">
                               Life Transitions + Stress
-                         </div>
-                         <div className="about__specialty-list__item">
+                         </li>
+                         <li className="about__specialty-list_item">
                               Relational Issues
-                         </div>
-                         <div className="about__specialty-list__item">
+                         </li>
+                         <li className="about__specialty-list_item">
                               Couples + Premarital
-                         </div>
-                         <div className="about__specialty-list__item">
+                         </li>
+                         <li className="about__specialty-list_item">
                               Adolescent Issues
-                         </div>
-                         <div className="about__specialty-list__item">
+                         </li>
+                         <li className="about__specialty-list_item">
                               LGBTQIA+
-                         </div>
-                    </div>
+                         </li>
+                    </ul>
                </section>
                <section className="about__services-group">
                     <article className="about__services">
                          <div className="about__services-header">
                               Services Offered
                          </div>
-                         <div className="about__services-list">
-                              <div className="about__services-list__item">
+                         <ul className="about__services-list">
+                              <li className="about__services-list_item">
                                    Virtual Sessions
-                              </div>
-                              <div className="about__services-list__item">
+                              </li>
+                              <li className="about__services-list_item">
                                    In-person sessions
-                              </div>
-                              <div className="about__services-list__item">
-                                   Walk and talk therapy at the Nashville Green
-                              </div>way
-                              <div className="about__services-list__item">
+                              </li>
+                              <li className="about__services-list_item">
+                                   Walk and talk therapy at the Nashville Greenway
+                              </li>
+                              <li className="about__services-list_item">
                                    Adolescents 13+
-                              </div>
-                              <div className="about__services-list__item">
+                              </li>
+                              <li className="about__services-list_item">
                                    Adults 18+
-                              </div>
-                              <div className="about__services-list__item">
+                              </li>
+                              <li className="about__services-list_item">
                                    Couples
-                              </div>
-                         </div>
+                              </li>
+                         </ul>
                     </article>
                     <article className="about__qualifications">
                          <div className="about__qualifications-header">
                               Qualifications
                          </div>
-                         <div className="about__qualifications-list">
-                              <div className="about__qualifications-list__item">
+                         <ul className="about__qualifications-list">
+                              <li className="about__qualifications-list_item">
                                    Licensed Clinical Social Worker (LCSW) in Tennessee
-                              </div>
-                              <div className="about__qualifications-list__item">
+                              </li>
+                              <li className="about__qualifications-list_item">
                                    Trained in Imago Relationship Therapy (IRT)
-                              </div>
-                              <div className="about__qualifications-list__item">
+                              </li>
+                              <li className="about__qualifications-list_item">
                                    Masters of Social Work - University of Tennessee
-                              </div>
-                              <div className="about__qualifications-list__item">
+                              </li>
+                              <li className="about__qualifications-list_item">
                                    Bachelors in Philosophy - College of Charleston
-                              </div>
-                         </div>
+                              </li>
+                         </ul>
                     </article>
                </section>
           </article>

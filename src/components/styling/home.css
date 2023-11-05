@@ -1,9 +1,9 @@
 .home__greeting {
      background-image: url("../../img/GreetingBG.png");
+     background-position: center;
      background-size: 100%;
      display: flex;
      flex-flow: column nowrap;
-     background-position: center;
 }
 
 .home__greeting-words {
@@ -24,65 +24,10 @@
      font-size: 350%;
 }
 
-.home__individual-quote {
-     border: 2px solid #82713D;
-     background-image: url("../../img/FlowersImage.png");
-     display: flex;
-     flex-flow: row wrap;
-     justify-content: space-evenly;
-     padding: 1.5%;
-     margin: 1.5%;
-}
-
-.home__individual-quote_attribute {
-     color: rgb(255, 255, 255);
-     font-style: italic;
-     text-align: right;
-     padding: 2.5%;
-}
-
-.home__individual-quote_border {
-     margin: .5%;
-     background-color: #82713D;
-     padding: 0.5%;
-}
-
-.home__individual-quote_quote {
-     font-weight: 700;
-     padding: 2.5%;
-}
-
-.home__individual-quote_book-title {
-     font-style: normal;
-}
-
 .home__page {
+     background-color: rgba(179, 117, 115, 1);
      margin: 0;
-     padding-bottom: 2%;
-     padding-top: 0.5%;
-}
-
-.home__welcome-logo {
-     align-self: normal;
-     background-color: rgb(205, 125, 67);
-     color: rgb(255, 255, 255);
-     display: flex;
-     font-family: Borel;
-     justify-content: center;
-}
-
-.home__welcome-greeting {
-     font-family: Borel;
-     color: rgb(205, 125, 67);
-     display: flex;
-     justify-content: center;
-}
-
-.home__background-flowers {
-     max-width: 50%;
-     max-width: 15%;
-     object-fit: cover;
-     object-position: center;
+     padding-bottom: 0.25%;
 }
 
 .home__services-h2 {

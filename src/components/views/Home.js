@@ -13,16 +13,13 @@ export const Home = () => {
                               ROSE + SOOY COUNSELING
                          </div>
                          <div className="home__greeting-welcome">
-                              We're glad you're here!
+                              Individual Therapy and Couples Counseling
                          </div>
                     </article>
                </section>
-               <section className="home__page">
-               </section >
+               {/* <section className="home__page" /> */}
                <AboutForHome />
                <Quote01 />
-               {/* <AboutJodieRosenblum />
-               <AboutKaelieSooy /> */}
                <ServicesForHome />
                <LocationOptions />
                <Quote02 />

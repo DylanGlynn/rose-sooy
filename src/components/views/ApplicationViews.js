@@ -1,4 +1,4 @@
-import { About, AboutJodieRosenblumSpacing, AboutKaelieSooySpacing } from "./About"
+import { About, AboutForHome, AboutJodieRosenblumSpacing, AboutKaelieSooySpacing } from "./About"
 import { Connect } from "./Connect"
 import { FAQ } from "./FAQ"
 import { FeesPolicies } from "./FeesPolicies"
@@ -6,14 +6,15 @@ import { Home } from "./Home"
 import { Route, Routes } from "react-router-dom"
 import { PhoneConsult } from "./PhoneConsult"
 import { Services, ServicesAdolescentsFull, ServicesCouplesMarriageFull, ServicesIndividualAdultsFull } from "./Services"
-import { SpecialtyAreas, SpecialtyAreasFull } from "./Specialties"
-import { LocationOptions, LocationOptionsSpacing } from "./LocationOptions"
+import { SpecialtyAreasFull } from "./Specialties"
+import { LocationOptionsSpacing } from "./LocationOptions"
 
 export const ApplicationViews = () => {
      return (
           <Routes>
                <Route path="/" element={<Home />} />
                <Route path="/about" element={<About />} />
+               <Route path="/about/rose+sooy" element={<AboutForHome />} />
                <Route path="/about/jodie-rosenblum" element={<AboutJodieRosenblumSpacing />} />
                <Route path="/about/kaelie-sooy" element={<AboutKaelieSooySpacing />} />
                <Route path="/connect" element={<Connect />} />

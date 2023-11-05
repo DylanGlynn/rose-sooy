@@ -6,23 +6,52 @@
      margin: 0 1.5% 1.5% 1.5%;
 }
 
+.connect__bottom {
+     display: flex;
+     flex-flow: row nowrap;
+     justify-content: center;
+}
+
+.connect__office__photo {
+     margin: 0 1%;
+     max-width: 25%;
+}
+
 .connect__panel-left {
-     /* background-color: rgba(179, 117, 115, 1);
-     color: white;
-     padding: 0 1.5%; */
+     color: rgba(115, 143, 170, 1);
+     display: flex;
+     flex-flow: column nowrap;
+     justify-content: space-between;
+     margin: 0 0 12% 0;   
+}
+
+.connect__panel-left__ADA {
+     font-size: smaller;
+     font-style: italic;
+     margin: -5% 0 2% 0;
 }
 
 .connect__panel-left__address {
      padding: 0 0 2.5% 0;
 }
 
-.connect__panel-left__h2 {
-     font-family: Caprasimo;
-     font-weight: 400;
+a.connect__panel-left__email:link,
+a.connect__panel-left__email:visited {
+     color: rgba(115, 143, 170, 1);
 }
 
-.connect__panel-left__heading {
-     
+.connect__panel-left__h2 {
+     color: rgba(115, 143, 170, 1);
+     font-family: Caprasimo;
+     font-weight: 400;
+     text-decoration: underline;
+}
+
+.connect__map {
+     display: flex;
+     flex-flow: row nowrap;
+     justify-content: center;
+     margin: 1% 0 0 0;
 }
 
 .connect__panel-left__IGlogo-small {
@@ -30,11 +59,6 @@
      padding: 2.5% 0 0 0;
 }
 
-.connect__panel-right {
-     text-align: center;
-     background-color: rgba(179, 117, 115, 1);
-     display: flex;
-     flex-flow: column nowrap;
-     justify-content: center;
-     padding: 0 1.5%;
-}
+/* .connect__panel-right {
+     
+} */

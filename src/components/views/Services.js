@@ -42,7 +42,9 @@ export const ServicesIndividualAdults = () => {
                               <div className="services__h2-half">
                                    Individual Therapy
                               </div>
-                              <p className="services__half-paragraph" />Individual Therapy is a collaborative and relational process of discovering a deeper understanding of oneself. Your therapist with Rose and Sooy will not only provide you with support for navigating life’s stressors, but will help you create a compass towards a life guided by your values.
+                              <p className="services__half-paragraph">
+                                   Individual Therapy is a collaborative and relational process of discovering a deeper understanding of oneself. Your therapist with Rose and Sooy will not only provide you with support for navigating life’s stressors, but will help you create a compass towards a life guided by your values.
+                              </p>
                          </div>
                     </article>
                     <LearnMoreIndividuals />
@@ -88,7 +90,9 @@ export const ServicesCouplesMarriage = () => {
                               <div className="services__h2-half">
                                    Couples Counseling
                               </div>
-                              <p className="services__half-paragraph" />Couples Counseling teaches relational skills and intentionally explores relationship issues; creating a deeper sense of connection and understanding.
+                              <p className="services__half-paragraph">
+                                   Couples Counseling teaches relational skills and intentionally explores relationship issues; creating a deeper sense of connection and understanding.
+                              </p>
                          </div>
                     </article>
                     <LearnMoreCouples />
@@ -133,7 +137,9 @@ export const ServicesAdolescents = () => {
                               <div className="services__h2-half">
                                    Adolescent Therapy
                               </div>
-                              <p className="services__half-paragraph" />Adolescent therapy provides teens with a safe space for self-exploration, an opportunity to learn new tools for understanding and regulating their emotions, and some help with navigating all the life changes, pressures, drama, excitement, heartache and more that come with the teen years.
+                              <p className="services__half-paragraph">
+                                   Adolescent therapy provides teens with a safe space for self-exploration, an opportunity to learn new tools for understanding and regulating their emotions, and some help with navigating all the life changes, pressures, drama, excitement, heartache and more that come with the teen years.
+                              </p>
                          </div>
                     </article>
                     <LearnMoreAdolescents />

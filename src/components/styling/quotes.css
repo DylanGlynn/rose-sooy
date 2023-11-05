@@ -64,11 +64,13 @@
 }
 
 .quote__services-01 {
-     background-image: url(../../img/NatureImgs/IMG_9394.JPG);
+     background-image: url(../../img/NatureImgs/IMG_1312.JPG);
+     background-position: bottom;
+
 }
 
 .quote__services-02 {
-     background-image: url(../../img/NatureImgs/IMG_9394.JPG);
+     background-image: url(../../img/NatureImgs/IMG_9358.JPG);
 }
 
 .quote__services-03 {
@@ -76,5 +78,6 @@
 }
 
 .quote__services-04 {
-     background-image: url(../../img/NatureImgs/IMG_9394.JPG);
+     background-image: url(../../img/NatureImgs/IMG_1057.JPG);
+     background-position: bottom;
 }

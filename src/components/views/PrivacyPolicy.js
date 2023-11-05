@@ -138,7 +138,7 @@ export const PrivacyPolicy = () => {
                          The effective date of this Notice is August 2023.
                     </div>
                     <div>
-                         <Link to={"https://support.simplepractice.com/hc/en-us/articles/10791430516365-Using-consent-documents-and-intake-forms"} target="_blank">
+                         <Link className="privacy-policy__link" to={"https://support.simplepractice.com/hc/en-us/articles/10791430516365-Using-consent-documents-and-intake-forms"} target="_blank">
                               https://support.simplepractice.com/hc/en-us/articles/10791430516365-Using-consent-documents-and-intake-forms
                          </Link>
                     </div>

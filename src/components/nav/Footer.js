@@ -29,7 +29,7 @@ export const Footer = () => {
                                    |
                               </li> */}
                               <li className="footer__list_item-middle">
-                                   <Link className="footer__link" to={"/phone-consultation"}>
+                                   <Link className="footer__link" to={"/phone-consultation"} target="_top">
                                         Free Phone Consultation
                                    </Link>
                               </li>
@@ -37,7 +37,7 @@ export const Footer = () => {
                                    |
                               </li>
                               <li className="footer__list_item-middle">
-                                   <Link className="footer__link" to={"https://secure.simplepractice.com/users/sign_in"}>
+                                   <Link className="footer__link" to={"https://secure.simplepractice.com/users/sign_in"} target="_blank">
                                         Client Portal
                                    </Link>
                               </li>
@@ -45,7 +45,7 @@ export const Footer = () => {
                                    |
                               </li>
                               <li className="footer__list_item-middle">
-                                   <Link className="footer__link" to={"/fees-and-policies"}>
+                                   <Link className="footer__link" to={"/fees-and-policies"} target="_top">
                                         Fees & Policies
                                    </Link>
                               </li>

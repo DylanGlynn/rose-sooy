@@ -34,7 +34,7 @@ export const LearnMoreAdolescents = () => {
      return (
           <article className="button">
                <div className="button__learn">
-                    <Link to="/services/adolescents/" ><button className="learn__button">LEARN MORE</button></Link>
+                    <Link to="/services/adolescents/" target="_top"><button className="learn__button">LEARN MORE</button></Link>
                </div>
           </article>
      )
@@ -44,7 +44,7 @@ export const LearnMoreCouples = () => {
      return (
           <article className="button">
                <div className="button__learn">
-                    <Link to="/services/couples/" ><button className="learn__button">LEARN MORE</button></Link>
+                    <Link to="/services/couples/" target="_top"><button className="learn__button">LEARN MORE</button></Link>
                </div>
           </article>
      )
@@ -54,7 +54,7 @@ export const LearnMoreIndividuals = () => {
      return (
           <article className="button">
                <div className="button__learn">
-                    <Link to="/services/individuals/" ><button className="learn__button">LEARN MORE</button></Link>
+                    <Link to="/services/individuals/" target="_top"><button className="learn__button">LEARN MORE</button></Link>
                </div>
           </article>
      )
@@ -64,7 +64,7 @@ export const LearnMoreSpecialties = () => {
      return (
           <article className="button">
                <div className="button__learn">
-                    <Link to="/specialty-areas" ><button className="learn__button">LEARN MORE</button></Link>
+                    <Link to="/specialty-areas" target="_top"><button className="learn__button">LEARN MORE</button></Link>
                </div>
           </article>
      )
