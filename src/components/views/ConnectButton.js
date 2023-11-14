@@ -69,3 +69,23 @@ export const LearnMoreSpecialties = () => {
           </article>
      )
 }
+
+export const LearnMoreJodie = () => {
+     return (
+          <article className="button">
+               <div className="button__learn">
+                    <Link to="/about/jodie-rosenblum" target="_top"><button className="learn__button">LEARN MORE</button></Link>
+               </div>
+          </article>
+     )
+}
+
+export const LearnMoreKaelie = () => {
+     return (
+          <article className="button">
+               <div className="button__learn">
+                    <Link to="/about/kaelie-sooy" target="_top"><button className="learn__button">LEARN MORE</button></Link>
+               </div>
+          </article>
+     )
+}

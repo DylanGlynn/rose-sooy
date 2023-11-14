@@ -13,6 +13,7 @@
 .about__heading-h2 {
      background-color: rgba(115, 143, 170, 0.25);
      border-top: 25px solid rgba(179, 117, 115, 1);
+     border-bottom: 25px solid rgba(179, 117, 115, 1);
      padding: 5% 0;
 }
 
@@ -32,6 +33,13 @@
      flex-flow: column wrap;
      justify-content: space-between;
      padding: 0 0.5% 1.5% 0.5%;
+}
+
+.about__practice-bio__brief {
+     display: flex;
+     flex-flow: row nowrap;
+     justify-content: space-around;
+     margin: 1% 2%;
 }
 
 .about__practice-group {

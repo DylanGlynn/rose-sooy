@@ -1,8 +1,6 @@
-import { React } from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import './components/styling/about-practice.css';
-import './components/styling/about-therapists.css';
+import './components/styling/about/practice.css';
+import './components/styling/about/therapists_brief.css';
+import './components/styling/about/therapists.css';
 import './components/styling/connect.css';
 import './components/styling/connect_button.css';
 import './components/styling/faqs.css';
@@ -20,7 +18,10 @@ import './components/styling/services_adolescents.css';
 import './components/styling/services_couples.css';
 import './components/styling/services_individuals.css';
 import './components/styling/specialties.css';
+import './index.css';
 import App from './Rose+Sooy';
+import { React } from 'react';
+import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
 

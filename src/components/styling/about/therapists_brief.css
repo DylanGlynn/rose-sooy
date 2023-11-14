@@ -1,0 +1,40 @@
+.about__photo__brief {
+     align-items: center;
+     display: block;
+}
+
+.about__practice-bio__brief {
+     align-content: center;
+     color: rgb(115, 143, 170);
+     display: flex;
+     flex-flow: row nowrap;
+     justify-content: space-around;
+}
+
+.about__therapists__brief {
+     display: flex;
+     flex-flow: column nowrap;
+     width: 45%;
+}
+
+.about__small-therapist__button {
+     align-items: center;
+}
+
+.about__small-therapist__group {}
+
+.about__small-therapist__header {
+     font-size: x-large;
+     margin: 1.5% 0;
+}
+
+.about__small-therapist__subheader {
+     margin: 0 1%;
+     text-indent: 1%;
+}
+
+.about__small-therapist__paragraph {
+     margin: 1% 0;
+     text-align: justify;
+     text-indent: 5%;
+}

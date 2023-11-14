@@ -1,4 +1,4 @@
-import { AboutForHome } from "./About";
+import { AboutForHome } from "./about/About";
 import { ConnectButton } from "./ConnectButton";
 import { LocationOptions } from "./LocationOptions";
 import { Quote01, Quote02 } from "./Quotes";

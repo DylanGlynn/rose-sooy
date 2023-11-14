@@ -1,4 +1,6 @@
-import { About, AboutForHome, AboutJodieRosenblumSpacing, AboutKaelieSooySpacing } from "./About"
+import { About, AboutForHome } from "./about/About"
+import { AboutJodieRosenblumSpacing } from "./about/JodieRosenblum"
+import { AboutKaelieSooySpacing } from "./about/KaelieSooy"
 import { Connect } from "./Connect"
 import { FAQ } from "./FAQ"
 import { FeesPolicies } from "./FeesPolicies"
