@@ -19,9 +19,9 @@ export const Connect = () => {
                          <div className="connect__panel-left__ADA">
                               ADA accessible parking located behind the building.
                          </div>
-                         <div className="connect__panel-left__phone-number">
+                         {/* <div className="connect__panel-left__phone-number">
                               (615) ???-???
-                         </div>
+                         </div> */}
                          <div className="connect__panel-left__email">
                               <Link className="connect__panel-left__email" to={"mailto:support@roseandsooy.com?subject=Initial%20Contact"}> support@roseandsooy.com</Link>
                          </div>
