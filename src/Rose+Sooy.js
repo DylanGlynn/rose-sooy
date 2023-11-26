@@ -3,8 +3,6 @@ import { ApplicationViews } from './components/views/ApplicationViews';
 import { Footer } from './components/nav/Footer';
 import { NavBar } from './components/nav/NavBar';
 
-export const WebsiteAddress = "http://localhost:3000"
-
 function App() {
      return (
           /*     <div className="App">
