@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/rose-sooy/static/css/main.bf266009.css",
-    "main.js": "/rose-sooy/static/js/main.f236410d.js",
+    "main.js": "/rose-sooy/static/js/main.82c2b1f0.js",
     "static/js/787.b6f95a18.chunk.js": "/rose-sooy/static/js/787.b6f95a18.chunk.js",
     "static/media/OCD.png": "/rose-sooy/static/media/OCD.fb79119d746c0d914494.png",
     "static/media/GreetingBG.png": "/rose-sooy/static/media/GreetingBG.d70412780feec16da1c1.png",
@@ -38,11 +38,11 @@
     "static/media/Logo.png": "/rose-sooy/static/media/Logo.75f1e77cf5b2b4b58044.png",
     "index.html": "/rose-sooy/index.html",
     "main.bf266009.css.map": "/rose-sooy/static/css/main.bf266009.css.map",
-    "main.f236410d.js.map": "/rose-sooy/static/js/main.f236410d.js.map",
+    "main.82c2b1f0.js.map": "/rose-sooy/static/js/main.82c2b1f0.js.map",
     "787.b6f95a18.chunk.js.map": "/rose-sooy/static/js/787.b6f95a18.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bf266009.css",
-    "static/js/main.f236410d.js"
+    "static/js/main.82c2b1f0.js"
   ]
 }
